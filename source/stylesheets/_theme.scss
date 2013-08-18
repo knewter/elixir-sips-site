@@ -46,3 +46,20 @@ nav {
 footer {
   color: $text-primary-color;
 }
+
+.subscribe_button_wrapper {
+  button {
+    font-size: 1.5em;
+    background-color: $logo-primary-color;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    &:hover {
+      background-color: shade($logo-primary-color, 20);
+    }
+  }
+  h5.subscribe_subtext {
+    color: $logo-secondary-color;
+    font-weight: 200;
+  }
+}
