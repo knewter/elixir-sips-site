@@ -1,1 +1,1 @@
-rvm ruby-2.0.0@erlang-sips-site --create
+rvm ruby-2.0.0@elixir-sips-site --create
