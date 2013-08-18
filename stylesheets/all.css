@@ -6102,14 +6102,18 @@ a.th {
     max-width: 800px; }
 
 /* line 1, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_typography.scss */
-h1, h2, h3, h4, h5, h6 {
+body {
   font-family: 'Source Sans Pro', sans-serif; }
 
 /* line 5, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+/* line 9, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_typography.scss */
 h1 {
   font-weight: 400; }
 
-/* line 9, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_typography.scss */
+/* line 13, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_typography.scss */
 h2 {
   font-weight: 200; }
 
@@ -6137,6 +6141,11 @@ nav {
 /* line 22, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
 .container {
   margin-top: 2em; }
+
+/* line 26, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+footer {
+  text-align: center;
+  margin: 4em 0; }
 
 /* line 8, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 html {
@@ -6172,3 +6181,7 @@ nav {
   /* line 41, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
   .container h3, .container h4, .container h5, .container h6 {
     color: red; }
+
+/* line 46, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+footer {
+  color: #cccccc; }
