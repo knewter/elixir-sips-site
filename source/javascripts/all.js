@@ -1,3 +1,3 @@
 //= require vendor/jquery
-//= require_tree ./foundation
 //= require ./foundation
+//= require_tree ./foundation
