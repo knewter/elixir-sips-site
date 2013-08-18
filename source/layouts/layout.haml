@@ -6,10 +6,24 @@
     %meta{ content: "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible" }
 
     / Use title if it's in the page YAML frontmatter
-    %title= current_page.data.title || "Erlang Sips"
+    %title= current_page.data.title || "Elixir Sips"
 
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,900'
     = stylesheet_link_tag "normalize", "all"
     = javascript_include_tag  "all"
 
   %body{ class: page_classes }
-    = yield
+    .row
+      .large-12.columns
+        %header
+          %h1 elixir sips
+          %h2 Learn Elixir With a Pro
+
+        %nav
+          = link_to "Home", "#", class: nav_active_class("index")
+          = link_to "Episodes", "#", class: nav_active_class("episodes")
+          = link_to "About", "#", class: nav_active_class("about")
+          = link_to "Subscribe", "#", class: nav_active_class("subscribe")
+    .row
+      .large-9.columns.large-centered
+        .container= yield

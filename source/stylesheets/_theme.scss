@@ -1,0 +1,39 @@
+$logo-primary-color: #A531DD;
+$logo-secondary-color: #6DC8DF;
+$background-pattern: url(../images/twinkle_twinkle.png);
+$active-link-color: white;
+$text-primary-color: #ccc;
+
+html {
+  height: 100%;
+}
+
+body {
+  background: $background-pattern;
+  height: 100%;
+}
+
+header {
+  h1 {
+    color: $logo-primary-color;
+  }
+  h2 {
+    color: $logo-secondary-color;
+    text-transform: uppercase;
+  }
+}
+
+nav {
+  text-transform: uppercase;
+  a {
+    color: $logo-primary-color;
+    font-weight: 200;
+    &.active {
+      color: $active-link-color;
+    }
+  }
+}
+
+.container {
+  color: $text-primary-color;
+}
