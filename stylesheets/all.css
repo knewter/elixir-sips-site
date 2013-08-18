@@ -6120,7 +6120,7 @@ h2 {
 /* line 1, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
 header {
   text-align: center;
-  margin: 4em 0; }
+  margin: 3em 0; }
   /* line 4, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
   header h1 {
     margin-bottom: 0; }
@@ -6132,20 +6132,27 @@ header {
 /* line 13, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
 nav {
   text-align: center;
-  margin: 4em 0; }
-  /* line 16, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  margin: 1em 0;
+  font-weight: 400;
+  font-size: 1.5em; }
+  /* line 18, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
   nav a {
     display: inline-block;
     padding: 1em; }
 
-/* line 22, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 24, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
 .container {
   margin-top: 2em; }
 
-/* line 26, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 28, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
 footer {
   text-align: center;
   margin: 4em 0; }
+
+/* line 33, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+.subscribe_button_wrapper {
+  text-align: center;
+  margin: 2em 0; }
 
 /* line 8, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 html {
@@ -6185,3 +6192,18 @@ nav {
 /* line 46, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 footer {
   color: #cccccc; }
+
+/* line 51, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+.subscribe_button_wrapper button {
+  font-size: 1.5em;
+  background-color: #a531dd;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 400; }
+  /* line 57, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+  .subscribe_button_wrapper button:hover {
+    background-color: #8427b0; }
+/* line 61, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+.subscribe_button_wrapper h5.subscribe_subtext {
+  color: #6dc8df;
+  font-weight: 200; }
