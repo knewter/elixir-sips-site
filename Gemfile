@@ -7,8 +7,8 @@ gem "middleman", "~>3.1.4"
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
-# Sync to S3 on build
-gem "middleman-sync", "~> 3.0.11"
+# Sync to GitHub Pages
+gem 'middleman-gh-pages'
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]

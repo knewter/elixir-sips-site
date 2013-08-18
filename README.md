@@ -7,7 +7,8 @@ This is the repo where I will work on the Elixir Sips website.
 To deploy the site:
 
 ```
-middleman build
+rake build
+rake publish
 ```
 
 ## Development
