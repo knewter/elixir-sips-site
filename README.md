@@ -1,3 +1,3 @@
-# Erlang Sips Site
+# Elixir Sips Site
 
-This is the repo where I will work on the Erlang Sips website.
+This is the repo where I will work on the Elixir Sips website.
