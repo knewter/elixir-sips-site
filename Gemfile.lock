@@ -1,9 +1,16 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    activemodel (3.2.14)
+      activesupport (= 3.2.14)
+      builder (~> 3.0.0)
     activesupport (3.2.14)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
+    asset_sync (1.0.0)
+      activemodel
+      fog (>= 1.8.0)
+    builder (3.0.4)
     chunky_png (1.2.8)
     coffee-script (2.2.0)
       coffee-script-source
@@ -17,9 +24,21 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.5.3)
     eventmachine (1.0.3)
+    excon (0.25.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
     ffi (1.9.0)
+    fog (1.15.0)
+      builder
+      excon (~> 0.25.0)
+      formatador (~> 0.2.0)
+      mime-types
+      multi_json (~> 1.0)
+      net-scp (~> 1.1)
+      net-ssh (>= 2.1.3)
+      nokogiri (~> 1.5)
+      ruby-hmac
+    formatador (0.2.4)
     fssm (0.2.10)
     haml (4.0.3)
       tilt
@@ -63,7 +82,17 @@ GEM
       sprockets (~> 2.1)
       sprockets-helpers (~> 1.0.0)
       sprockets-sass (~> 1.0.0)
+    middleman-sync (3.0.11)
+      asset_sync (~> 1.0.0)
+      middleman-core (>= 3.0.0)
+    mime-types (1.24)
+    mini_portile (0.5.1)
     multi_json (1.7.9)
+    net-scp (1.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.6.8)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     rack (1.5.2)
     rack-livereload (0.3.15)
       rack
@@ -74,6 +103,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
+    ruby-hmac (0.4.0)
     ruby18_source_location (0.2)
     sass (3.2.10)
     sprockets (2.10.0)
@@ -98,5 +128,6 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 3.1.4)
   middleman-livereload (~> 3.1.0)
+  middleman-sync (~> 3.0.11)
   ruby18_source_location
   wdm (~> 0.1.0)
