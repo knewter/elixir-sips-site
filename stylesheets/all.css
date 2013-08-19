@@ -6194,14 +6194,14 @@ footer {
   color: #cccccc; }
 
 /* line 51, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
-.subscribe_button_wrapper button {
+.subscribe_button_wrapper a.subscribe.button {
   font-size: 1.5em;
   background-color: #a531dd;
   border: 0;
   text-transform: uppercase;
   font-weight: 400; }
   /* line 57, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
-  .subscribe_button_wrapper button:hover {
+  .subscribe_button_wrapper a.subscribe.button:hover {
     background-color: #8427b0; }
 /* line 61, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 .subscribe_button_wrapper h5.subscribe_subtext {
