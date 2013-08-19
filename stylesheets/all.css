@@ -6162,6 +6162,49 @@ p.note {
 .episode {
   text-align: center; }
 
+/* line 47, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+.episodes-list .episode-list-item {
+  text-align: center; }
+  /* line 49, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  .episodes-list .episode-list-item > a {
+    display: block;
+    position: relative; }
+    /* line 52, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    .episodes-list .episode-list-item > a img.play {
+      position: absolute;
+      left: 38%;
+      top: 25%;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 1s;
+      -moz-transition-duration: 1s;
+      -o-transition-duration: 1s;
+      transition-duration: 1s;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+      opacity: 0.5; }
+    /* line 60, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    .episodes-list .episode-list-item > a img.cover-image {
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 1s;
+      -moz-transition-duration: 1s;
+      -o-transition-duration: 1s;
+      transition-duration: 1s;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+      opacity: 0.5; }
+    /* line 66, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    .episodes-list .episode-list-item > a:hover img.cover-image {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1; }
+    /* line 69, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    .episodes-list .episode-list-item > a:hover img.play {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1; }
+
 /* line 10, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 html {
   height: 100%; }
@@ -6220,3 +6263,7 @@ footer {
 p.note {
   background-color: #f8ffc5;
   color: #333333; }
+
+/* line 77, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+.episodes-list .episode-list-item > a p {
+  color: #cccccc; }
