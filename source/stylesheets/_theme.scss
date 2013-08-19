@@ -70,3 +70,13 @@ p.note {
   background-color: $note-bg-color;
   color: $note-text-color;
 }
+
+.episodes-list {
+  .episode-list-item {
+    > a {
+      p {
+        color: $text-primary-color;
+      }
+    }
+  }
+}

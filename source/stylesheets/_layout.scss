@@ -42,3 +42,34 @@ p.note {
 .episode {
   text-align: center;
 }
+
+.episodes-list {
+  .episode-list-item {
+    text-align: center;
+    > a {
+      display: block;
+      position: relative;
+      img.play {
+        position: absolute;
+        left: 38%;
+        top: 25%;
+        @include transition-property(opacity);
+        @include transition-duration(1s);
+        @include opacity(0.5);
+      }
+      img.cover-image {
+        @include transition-property(opacity);
+        @include transition-duration(1s);
+        @include opacity(0.5);
+      }
+      &:hover {
+        img.cover-image {
+          @include opacity(1);
+        }
+        img.play {
+          @include opacity(1);
+        }
+      }
+    }
+  }
+}

@@ -6,5 +6,10 @@ title: Elixir Sips | Episodes
 
 = partial 'partials/subscribe_button'
 
-%ul.episodes
-  %li= link_to "Episode 1 - Introduction and Installing Elixir", "/episodes/001_introduction_and_installing_elixir.html"
+.episodes-list
+  .episode-list-item
+    %a{ href: "/episodes/001_introduction_and_installing_elixir.html" }
+      %h5 Episode 1 - Introduction and Installing Elixir
+      = image_tag("001_Introduction_and_Installing_Elixir_Cover_Image_600x338.png", class: "cover-image")
+      %p A quick introduction to the screencast, followed by an Erlang / Elixir installation walkthrough.
+      = image_tag('play.png', class: 'play')
