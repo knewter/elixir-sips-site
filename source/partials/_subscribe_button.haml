@@ -1,10 +1,4 @@
 .row
   .subscribe_button_wrapper.large-9.columns.large-centered
-    %button.subscribe
-      Subscribe now for just $9/month!
+    = link_to "Subscribe now for just $9/month!", 'https://elixirsips.dpdcart.com/subscriber/add?plan_id=176&plan_term_id=306', class: 'subscribe button'
     %h5.subscribe_subtext 2 screencasts a week.  Access to all previous episodes.
-
-:javascript
-  $('button.subscribe').on('click', function(){
-    alert("ALMOST ready, but not sufficient content yet to justify you spending your money.  Thanks!");
-  });
