@@ -6164,12 +6164,13 @@ p.note {
 
 /* line 47, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
 .episodes-list .episode-list-item {
-  text-align: center; }
-  /* line 49, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  text-align: center;
+  margin: 1em 0; }
+  /* line 50, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
   .episodes-list .episode-list-item > a {
     display: block;
     position: relative; }
-    /* line 52, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    /* line 53, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
     .episodes-list .episode-list-item > a img.play {
       position: absolute;
       left: 38%;
@@ -6184,7 +6185,7 @@ p.note {
       transition-duration: 1s;
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
       opacity: 0.5; }
-    /* line 60, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    /* line 61, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
     .episodes-list .episode-list-item > a img.cover-image {
       -webkit-transition-property: opacity;
       -moz-transition-property: opacity;
@@ -6196,74 +6197,80 @@ p.note {
       transition-duration: 1s;
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
       opacity: 0.5; }
-    /* line 66, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    /* line 67, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
     .episodes-list .episode-list-item > a:hover img.cover-image {
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
       opacity: 1; }
-    /* line 69, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    /* line 70, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
     .episodes-list .episode-list-item > a:hover img.play {
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
       opacity: 1; }
 
-/* line 10, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 11, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 html {
   height: 100%; }
 
-/* line 14, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 15, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 body {
   background: url(../images/twinkle_twinkle.png);
   min-height: 100%; }
 
-/* line 20, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 21, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 header h1 {
   color: #a531dd; }
-/* line 23, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 24, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 header h2 {
   color: #6dc8df;
   text-transform: uppercase; }
 
-/* line 29, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 30, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 nav {
   text-transform: uppercase; }
-  /* line 31, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+  /* line 32, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
   nav a {
     color: #a531dd;
     font-weight: 200; }
-    /* line 34, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+    /* line 35, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
     nav a.active {
       color: white; }
 
-/* line 40, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 41, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 .container {
   color: #cccccc; }
-  /* line 43, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+  /* line 44, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
   .container h3, .container h4, .container h5, .container h6 {
     color: white; }
 
-/* line 48, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 49, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 footer {
   color: #cccccc; }
 
-/* line 53, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 54, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 .subscribe_button_wrapper a.subscribe.button {
   font-size: 1.5em;
   background-color: #a531dd;
   border: 0;
   text-transform: uppercase;
   font-weight: 400; }
-  /* line 59, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+  /* line 60, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
   .subscribe_button_wrapper a.subscribe.button:hover {
     background-color: #8427b0; }
-/* line 63, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 64, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 .subscribe_button_wrapper h5.subscribe_subtext {
   color: #6dc8df;
   font-weight: 200; }
 
-/* line 69, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 70, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 p.note {
   background-color: #f8ffc5;
   color: #333333; }
 
-/* line 77, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
-.episodes-list .episode-list-item > a p {
-  color: #cccccc; }
+/* line 76, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+.episodes-list .episode-list-item {
+  border-bottom: 1px solid #333333; }
+  /* line 79, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+  .episodes-list .episode-list-item > a p {
+    color: #cccccc; }
+  /* line 83, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+  .episodes-list .episode-list-item:last-child {
+    border-bottom: 0; }
