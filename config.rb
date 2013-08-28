@@ -44,9 +44,52 @@ activate :livereload
 #     "Helping"
 #   end
 # end
+
+class Episode < Struct.new(:title, :synopsis, :cover_image_url, :url, :free)
+  def title_with_subscriber_tag
+    [].tap do |parts|
+      parts << title
+      parts << "[Subscribers Only]" unless free?
+    end.join(" ")
+  end
+
+  def free?
+    free
+  end
+
+  def paid?
+    !free?
+  end
+end
+
 helpers do
   def nav_active_class(page)
     page_classes === page ? 'active' : ''
+  end
+
+  def episodes
+    [
+      Episode.new("Episode 001: Introduction and Installing Elixir",
+                  "A quick introduction to the screencast, followed by an Erlang / Elixir installation walkthrough.",
+                  "001_Introduction_and_Installing_Elixir_Cover_Image_600x338.png",
+                 "/episodes/001_introduction_and_installing_elixir.html",
+                 true),
+      Episode.new("Episode 002: Basic Elixir",
+                  "A quick overview of some of the basic types in Elixir: Atoms, Numbers, Lists, Tuples, Regexes, and Booleans...",
+                  "002_Basic_Elixir_Cover_Image_600x338.png",
+                  "/episodes/002_basic_elixir.html",
+                  false),
+      Episode.new("Episode 003: Pattern Matching",
+                  "A discussion of pattern matching in Elixir.",
+                  "003_Pattern_Matching_Screenshot_600x338.png",
+                  "/episodes/003_pattern_matching.html",
+                  false),
+      Episode.new("Episode 004: Functions",
+                  "An overview of functions in Elixir: Defining them, calling them, and using them as first-class types.",
+                  "004_Functions_Screenshot_600x338.png",
+                  "/episodes/004_functions.html",
+                  false)
+    ]
   end
 end
 

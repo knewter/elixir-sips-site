@@ -1,15 +1,6 @@
 ---
 title: "Episode 003: Pattern Matching | Elixir Sips"
 ---
+- episode = episodes[2]
 
-.episode
-  %h3 Episode 003: Pattern Matching [Subscribers Only]
-
-  = image_tag "/images/003_Pattern_Matching_Screenshot_600x338.png"
-
-  %p A discussion of pattern matching in Elixir.
-
-  %p.note
-    NOTE: This video is only available to subscribers.
-
-  = partial 'partials/subscribe_button'
+= partial 'episodes/paid_episode', locals: { episode: episode }

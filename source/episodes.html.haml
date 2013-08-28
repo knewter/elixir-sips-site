@@ -7,19 +7,10 @@ title: Episodes | Elixir Sips
 = partial 'partials/subscribe_button'
 
 .episodes-list
-  .episode-list-item
-    %a{ href: "/episodes/001_introduction_and_installing_elixir.html" }
-      %h5 Episode 001: Introduction and Installing Elixir
-      = image_tag("001_Introduction_and_Installing_Elixir_Cover_Image_600x338.png", class: "cover-image")
-      %p A quick introduction to the screencast, followed by an Erlang / Elixir installation walkthrough.
-      = image_tag('play.png', class: 'play')
-  .episode-list-item
-    %a{ href: "/episodes/002_basic_elixir.html" }
-      %h5 Episode 002: Basic Elixir [Subscribers Only]
-      = image_tag("002_Basic_Elixir_Cover_Image_600x338.png", class: "cover-image")
-      %p A quick overview of some of the basic types in Elixir: Atoms, Numbers, Lists, Tuples, Regexes, and Booleans.
-  .episode-list-item
-    %a{ href: "/episodes/003_pattern_matching.html" }
-      %h5 Episode 003: Pattern Matching [Subscribers Only]
-      = image_tag("003_Pattern_Matching_Screenshot_600x338.png", class: "cover-image")
-      %p A discussion of pattern matching in Elixir.
+  - episodes.each do |episode|
+    .episode-list-item
+      %a{ href: episode.url }
+        %h5= episode.title_with_subscriber_tag
+        = image_tag(episode.cover_image_url, class: "cover-image")
+        %p= episode.synopsis
+        = image_tag('play.png', class: 'play')

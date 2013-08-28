@@ -1,0 +1,12 @@
+.episode
+  %h3= episode.title_with_subscriber_tag
+
+  = image_tag episode.cover_image_url
+
+  %p= episode.synopsis
+
+  - if episode.paid?
+    %p.note
+      NOTE: This video is only available to subscribers.
+
+  = partial 'partials/subscribe_button'
