@@ -88,6 +88,11 @@ helpers do
                   "An overview of functions in Elixir: Defining them, calling them, and using them as first-class types.",
                   "004_Functions_Screenshot_600x338.png",
                   "/episodes/004_functions.html",
+                  false),
+      Episode.new("Episode 005: Mix and Modules",
+                  "Using Mix to generate an app, and defining modules and functions.",
+                  "005_Modules_Screenshot_600x338.png",
+                  "/episodes/005_modules.html",
                   false)
     ]
   end
