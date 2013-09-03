@@ -93,6 +93,11 @@ helpers do
                   "Using Mix to generate an app, and defining modules and functions.",
                   "005_Modules_Screenshot_600x338.png",
                   "/episodes/005_modules.html",
+                  false),
+      Episode.new("Episode 006: Unit Testing",
+                  "Test Driving a module into existence in Elixir.",
+                  "006_Testing_Screenshot_600x338.png",
+                  "/episodes/006_testing.html",
                   false)
     ]
   end
