@@ -98,6 +98,11 @@ helpers do
                   "Test Driving a module into existence in Elixir.",
                   "006_Testing_Screenshot_600x338.png",
                   "/episodes/006_testing.html",
+                  false),
+      Episode.new("Episode 007: Dynamo, Part 1",
+                  "The first part to an introduction to building a web application in Elixir using Dynamo.",
+                  "007_Dynamo_Part_1_Screenshot_600x338.png",
+                  "/episodes/007_dynamo_part_1.html",
                   false)
     ]
   end
