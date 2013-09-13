@@ -103,6 +103,11 @@ helpers do
                   "The first part to an introduction to building a web application in Elixir using Dynamo.",
                   "007_Dynamo_Part_1_Screenshot_600x338.png",
                   "/episodes/007_dynamo_part_1.html",
+                  false),
+      Episode.new("Episode 008: Dynamo, Part 2",
+                  "An introduction to Amnesia for persistence, and a brief pointer to Ecto.",
+                  "008_Dynamo_Part_2_Screenshot_600x338.png",
+                  "/episodes/008_dynamo_part_2.html",
                   false)
     ]
   end
