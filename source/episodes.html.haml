@@ -11,6 +11,6 @@ title: Episodes | Elixir Sips
     .episode-list-item
       %a{ href: episode.url }
         %h5= episode.title_with_subscriber_tag
-        = image_tag(episode.cover_image_url, class: "cover-image")
+        = image_tag(episode.cover_image_url, class: "cover-image", width: 600, height: 338)
         %p= episode.synopsis
         = image_tag('play.png', class: 'play')
