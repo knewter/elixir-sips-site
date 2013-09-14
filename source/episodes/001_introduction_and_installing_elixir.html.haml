@@ -3,11 +3,4 @@ title: "Episode 001: Introduction and Installing Elixir | Elixir Sips"
 ---
 - episode = episodes[0]
 
-.episode
-  %h3= episode.title_with_subscriber_tag
-
-  <iframe src="http://fast.wistia.net/embed/iframe/oztkwa9k78" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="360"></iframe>
-
-  %p This is the first episode I've recorded.  In it, I walk through installing Elixir.  Hope you enjoy it.
-
-  %p.note NOTE: The embedded videos have been scaled down for embedding online.  Subscribers have access to full-size, high-definition videos.
+= partial 'episodes/free_episode', locals: { episode: episode, video_url: "http://fast.wistia.net/embed/iframe/oztkwa9k78" }

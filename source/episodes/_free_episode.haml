@@ -1,0 +1,11 @@
+.episode
+  %h3= episode.title
+
+  .flex-video
+    <iframe src="#{video_url}" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="360"></iframe>
+
+  %p= episode.synopsis
+
+  = partial 'partials/subscribe_button'
+
+  %p.note NOTE: The embedded videos have been scaled down for embedding online.  Subscribers have access to full-size, high-definition videos.
