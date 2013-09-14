@@ -6206,6 +6206,49 @@ p.note {
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
       opacity: 1; }
 
+/* line 78, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+.intro {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5em;
+  *zoom: 1;
+  margin-bottom: 2em; }
+  /* line 121, /home/jadams/.rvm/gems/ruby-2.0.0-p247@elixir-sips-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
+  .intro:before, .intro:after {
+    content: " ";
+    display: table; }
+  /* line 122, /home/jadams/.rvm/gems/ruby-2.0.0-p247@elixir-sips-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
+  .intro:after {
+    clear: both; }
+  /* line 81, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  .intro .author_info {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 25%;
+    float: left;
+    text-align: center; }
+    /* line 84, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    .intro .author_info img {
+      margin-top: .5em; }
+    /* line 87, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    .intro .author_info .byline {
+      margin-top: 1em; }
+  /* line 91, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  .intro .intro_text {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 75%;
+    float: left; }
+
+/* line 96, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+.example_episode {
+  text-align: center; }
+
 /* line 11, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
 html {
   height: 100%; }
