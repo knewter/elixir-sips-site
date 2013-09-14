@@ -53,7 +53,7 @@ p.note {
       img.play {
         position: absolute;
         left: 38%;
-        top: 25%;
+        top: 17%;
         @include transition-property(opacity);
         @include transition-duration(1s);
         @include opacity(0.5);
