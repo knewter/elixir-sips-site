@@ -6174,7 +6174,7 @@ p.note {
     .episodes-list .episode-list-item > a img.play {
       position: absolute;
       left: 38%;
-      top: 25%;
+      top: 17%;
       -webkit-transition-property: opacity;
       -moz-transition-property: opacity;
       -o-transition-property: opacity;
