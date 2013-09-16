@@ -108,6 +108,11 @@ helpers do
                   "An introduction to Amnesia for persistence, and a brief pointer to Ecto.",
                   "008_Dynamo_Part_2_Screenshot_600x338.png",
                   "/episodes/008_dynamo_part_2.html",
+                  false),
+      Episode.new("Episode 009: Dynamo, Part 3",
+                  "Integrating Amnesia and Dynamo to create a web app with a persistence layer.",
+                  "009_Dynamo_Part_3_Screenshot_600x338.png",
+                  "/episodes/009_dynamo_part_3.html",
                   false)
     ]
   end
