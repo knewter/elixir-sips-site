@@ -113,6 +113,11 @@ helpers do
                   "Integrating Amnesia and Dynamo to create a web app with a persistence layer.",
                   "009_Dynamo_Part_3_Screenshot_600x338.png",
                   "/episodes/009_dynamo_part_3.html",
+                  false),
+      Episode.new("Episode 010: List Comprehensions",
+                  "An overview of list comprehensions in Elixir, or: buildings lists from lists (of lists?)",
+                  "010_List_Comprehensions_Screenshot_600x338.png",
+                  "/episodes/010_list_comprehensions.html",
                   false)
     ]
   end
