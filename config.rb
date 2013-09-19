@@ -118,6 +118,11 @@ helpers do
                   "An overview of list comprehensions in Elixir, or: buildings lists from lists (of lists?)",
                   "010_List_Comprehensions_Screenshot_600x338.png",
                   "/episodes/010_list_comprehensions.html",
+                  false),
+      Episode.new("Episode 011: Records",
+                  "An overview of records in Elixir; what they are, how they're used",
+                  "011_Records_Screenshot_600x338.png",
+                  "/episodes/011_records.html",
                   false)
     ]
   end
