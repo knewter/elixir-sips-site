@@ -67,6 +67,10 @@ helpers do
     page_classes === page ? 'active' : ''
   end
 
+  def latest_episode
+    episodes.last
+  end
+
   def episodes
     [
       Episode.new("Episode 001: Introduction and Installing Elixir",

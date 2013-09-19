@@ -12,13 +12,18 @@ title: Elixir Sips | Learn Elixir With a Pro
     %h3 You're interested in learning Elixir, but you don't really know where to start.
     %p I've got quite the deal for you - join me as I learn Elixir.  I'll post a couple of short screencasts each week in which I go through a single concept in Elixir on my way to learning it.
 
-.example_episode
-  %h3 Watch an example episode
-  %p Watch Episode 007, in which we begin building a web application using the Dynamo framework.
+.intro_episodes
+  .latest_episode
+    %h3 Latest Episode
+    = image_tag latest_episode.cover_image_url
+    %p= link_to latest_episode.title_with_subscriber_tag, latest_episode.url
 
-  .flex-video
-    <iframe src="http://fast.wistia.net/embed/iframe/vm4xoipl58" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="360"></iframe>
 
-  %p This is just a sample, there's lots more where that came from...and more coming every week!
+  .example_episode
+    %h3 Watch an example episode
+    .flex-video
+      <iframe src="http://fast.wistia.net/embed/iframe/vm4xoipl58" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="360"></iframe>
+    %p Watch Episode 007, in which we begin building a web application using the Dynamo framework.
+%p This is just a sample, there's lots more where that came from...and more coming every week!
 
 = partial 'partials/subscribe_button'

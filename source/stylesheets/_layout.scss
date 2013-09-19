@@ -93,6 +93,16 @@ p.note {
   }
 }
 
-.example_episode {
-  text-align: center;
+.intro_episodes {
+  @include grid-row;
+
+  .example_episode {
+    @include grid-column(6);
+    text-align: center;
+  }
+
+  .latest_episode {
+    @include grid-column(6);
+    text-align: center;
+  }
 }
