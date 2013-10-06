@@ -104,5 +104,9 @@ p.note {
   .latest_episode {
     @include grid-column(6);
     text-align: center;
+    img {
+      margin-top: 2em;
+      margin-bottom: .5em;
+    }
   }
 }

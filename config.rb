@@ -71,6 +71,20 @@ helpers do
     episodes.last
   end
 
+  def hours_and_minutes(total_seconds)
+    total_minutes = total_seconds / 60
+    hours = total_minutes / 60
+    minutes = total_minutes - (hours * 60)
+    seconds = total_seconds - (minutes * 60) - (hours * 60 * 60)
+    pretty_minutes = minutes.to_s.rjust(2, "0")
+    pretty_seconds = seconds.to_s.rjust(2, "0")
+    "#{hours}:#{pretty_minutes}:#{pretty_seconds}"
+  end
+
+  def total_time
+    episodes.map(&:length).inject(:+)
+  end
+
   def episodes
     [
       Episode.new("Episode 001: Introduction and Installing Elixir",

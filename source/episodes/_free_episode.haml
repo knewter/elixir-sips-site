@@ -5,6 +5,7 @@
     <iframe src="#{video_url}" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="360"></iframe>
 
   %p= episode.synopsis
+  %h4 Length: #{hours_and_minutes(episode.length)}
 
   = partial 'partials/subscribe_button'
 

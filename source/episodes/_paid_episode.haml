@@ -4,6 +4,7 @@
   = image_tag episode.cover_image_url
 
   %p= episode.synopsis
+  %h4 Length: #{hours_and_minutes(episode.length)}
 
   - if episode.paid?
     %p.note
