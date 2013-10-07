@@ -14881,6 +14881,12 @@ if (typeof jQuery === "undefined" &&
     reflow : function () {}
   };
 }(Foundation.zj, this, this.document));
+$(function(){
+  $('.subscribe').on('click', function() {
+    ga('send', 'event', 'subscribe', 'click');
+  });
+});
+
 
 
 
