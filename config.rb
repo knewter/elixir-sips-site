@@ -176,7 +176,13 @@ helpers do
                   "015_OTP_Part_2_Finite_State_Machines_Screenshot_600x338.png",
                   "/episodes/015_otp_part_2_finite_state_machines.html",
                   false,
-                  775)
+                  775),
+      Episode.new("Episode 016: Pipe Operator",
+                  "An introduction to the pipe operator, and an example app mimicking a unix pipeline.",
+                  "016_Pipe_Operator_Screenshot_600x338.png",
+                  "/episodes/016_pipe_operator.html",
+                  false,
+                  802)
     ]
   end
 end
