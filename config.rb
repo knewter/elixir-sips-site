@@ -182,7 +182,13 @@ helpers do
                   "016_Pipe_Operator_Screenshot_600x338.png",
                   "/episodes/016_pipe_operator.html",
                   false,
-                  802)
+                  802),
+      Episode.new("Episode 017: Enum, Part 1",
+                  "A brief overview of the first portion of the Enum module from the standard library",
+                  "017_Enum_Part_1_Screenshot_600x338.png",
+                  "/episodes/017_enum_part_1.html",
+                  false,
+                  303)
     ]
   end
 end
