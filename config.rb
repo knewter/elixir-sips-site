@@ -188,7 +188,13 @@ helpers do
                   "017_Enum_Part_1_Screenshot_600x338.png",
                   "/episodes/017_enum_part_1.html",
                   false,
-                  303)
+                  303),
+      Episode.new("Episode 018: Enum, Part 2",
+                  "A brief overview of the second portion of the Enum module from the standard library",
+                  "018_Enum_Part_2_Screenshot_600x338.png",
+                  "/episodes/018_enum_part_2.html",
+                  false,
+                  323)
     ]
   end
 end
