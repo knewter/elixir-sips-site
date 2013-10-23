@@ -200,7 +200,13 @@ helpers do
                   "019_Enum_Part_3_Screenshot_600x338.png",
                   "/episodes/019_enum_part_3.html",
                   false,
-                  459)
+                  459),
+      Episode.new("Episode 020: OTP, Part 3 - GenEvent",
+                  "Getting started with the GenEvent Behaviour",
+                  "020_OTP_Part_3_GenEvent_Screenshot_600x338.png",
+                  "/episodes/020_otp_part_3_gen_event.html",
+                  false,
+                  642)
     ]
   end
 end
