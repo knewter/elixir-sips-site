@@ -206,7 +206,13 @@ helpers do
                   "020_OTP_Part_3_GenEvent_Screenshot_600x338.png",
                   "/episodes/020_otp_part_3_gen_event.html",
                   false,
-                  642)
+                  642),
+      Episode.new("Episode 021: ZeldaCat, Part 2",
+                  "More practice with GenEvent",
+                  "021_ZeldaCat_Part_2_Screenshot_600x338.png",
+                  "/episodes/021_zeldacat_part_2.html",
+                  false,
+                  434)
     ]
   end
 end
