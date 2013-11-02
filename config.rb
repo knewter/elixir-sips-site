@@ -218,7 +218,13 @@ helpers do
                   "022_OTP_Part_4_Supervisors_Screenshot_600x338.png",
                   "/episodes/022_otp_part_4_supervisors.html",
                   false,
-                  596)
+                  596),
+      Episode.new("Episode 023: OTP, Part 5 - Supervisors and Persistent State",
+                  "Making a supervised process's state live through a crash.",
+                  "023_OTP_Part_5_Supervisors_and_Persistent_State_Screenshot_600x338.png",
+                  "/episodes/023_otp_part_5_supervisors_and_persistent_state.html",
+                  false,
+                  711)
     ]
   end
 end
