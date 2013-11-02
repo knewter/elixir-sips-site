@@ -212,7 +212,13 @@ helpers do
                   "021_ZeldaCat_Part_2_Screenshot_600x338.png",
                   "/episodes/021_zeldacat_part_2.html",
                   false,
-                  434)
+                  434),
+      Episode.new("Episode 022: OTP, Part 4 - Supervisors",
+                  "How supervisors can help you 'let it crash.'",
+                  "022_OTP_Part_4_Supervisors_Screenshot_600x338.png",
+                  "/episodes/022_otp_part_4_supervisors.html",
+                  false,
+                  596)
     ]
   end
 end
