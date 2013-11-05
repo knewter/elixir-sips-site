@@ -224,7 +224,13 @@ helpers do
                   "023_OTP_Part_5_Supervisors_and_Persistent_State_Screenshot_600x338.png",
                   "/episodes/023_otp_part_5_supervisors_and_persistent_state.html",
                   false,
-                  711)
+                  711),
+      Episode.new("Episode 024: Ecto, Part 1",
+                  "An introduction to using Ecto and Postgres for persistence.",
+                  "024_Ecto_Part_1_Screenshot_600x338.png",
+                  "/episodes/024_ecto_part_1.html",
+                  false,
+                  525)
     ]
   end
 end
