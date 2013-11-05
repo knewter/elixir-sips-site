@@ -229,7 +229,7 @@ helpers do
                   "An introduction to using Ecto and Postgres for persistence.",
                   "024_Ecto_Part_1_Screenshot_600x338.png",
                   "/episodes/024_ecto_part_1.html",
-                  false,
+                  true,
                   525)
     ]
   end
