@@ -230,7 +230,13 @@ helpers do
                   "024_Ecto_Part_1_Screenshot_600x338.png",
                   "/episodes/024_ecto_part_1.html",
                   true,
-                  525)
+                  525),
+      Episode.new("Episode 025: Ecto, Part 2 - Dwitter",
+                  "Overhauling our Dynamo webapp to use Ecto for its persistence layer.",
+                  "025_Ecto_Part_2_Dwitter_Screenshot_600x338.png",
+                  "/episodes/025_ecto_part_2_dynamo.html",
+                  false,
+                  580)
     ]
   end
 end
