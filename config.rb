@@ -236,7 +236,19 @@ helpers do
                   "025_Ecto_Part_2_Dwitter_Screenshot_600x338.png",
                   "/episodes/025_ecto_part_2_dynamo.html",
                   false,
-                  580)
+                  580),
+      Episode.new("Episode 026: Dict, Part 1",
+                  "A brief overview of the first portion of the Dict module.",
+                  "026_Dict_Part_1_Screenshot_600x338.png",
+                  "/episodes/026_dict_part_1.html",
+                  false,
+                  389),
+      Episode.new("Episode 027: Dict, Part 2",
+                  "A brief overview of the second portion of the Dict module.",
+                  "027_Dict_Part_2_Screenshot_600x338.png",
+                  "/episodes/027_dict_part_2.html",
+                  false,
+                  291)
     ]
   end
 end
