@@ -248,7 +248,13 @@ helpers do
                   "027_Dict_Part_2_Screenshot_600x338.png",
                   "/episodes/027_dict_part_2.html",
                   false,
-                  291)
+                  291),
+      Episode.new("Episode 028: Parsing XML",
+                  "A glimpse into XML parsing in Elixir, by way of interoperating with an Erlang module.",
+                  "028_Parsing_XML_Screenshot_600x338.png",
+                  "/episodes/028_parsing_xml.html",
+                  false,
+                  560)
     ]
   end
 end
