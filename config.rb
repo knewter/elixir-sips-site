@@ -254,7 +254,13 @@ helpers do
                   "028_Parsing_XML_Screenshot_600x338.png",
                   "/episodes/028_parsing_xml.html",
                   false,
-                  560)
+                  560),
+      Episode.new("Episode 029: HTTP Clients",
+                  "A survey of the HTTP Client landscape.",
+                  "029_HTTP_Clients_Screenshot_600x338.png",
+                  "/episodes/029_http_clients.html",
+                  false,
+                  457)
     ]
   end
 end
