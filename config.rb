@@ -260,7 +260,13 @@ helpers do
                   "029_HTTP_Clients_Screenshot_600x338.png",
                   "/episodes/029_http_clients.html",
                   false,
-                  457)
+                  457),
+      Episode.new("Episode 030: ExActor",
+                  "Simplified generation of generic servers.",
+                  "030_ExActor_Screenshot_600x338.png",
+                  "/episodes/030_exactor.html",
+                  false,
+                  336) 
     ]
   end
 end
