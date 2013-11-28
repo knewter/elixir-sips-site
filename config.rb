@@ -266,7 +266,13 @@ helpers do
                   "030_ExActor_Screenshot_600x338.png",
                   "/episodes/030_exactor.html",
                   false,
-                  336) 
+                  336),
+      Episode.new("Episode 031: TCP Servers",
+                  "Building network servers in Elixir using Erlang's `:gen_tcp` module.",
+                  "031_TCP_Servers_Screenshot_600x338.png",
+                  "/episodes/031_tcp_servers.html",
+                  false,
+                  219)
     ]
   end
 end
