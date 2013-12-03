@@ -272,7 +272,13 @@ helpers do
                   "031_TCP_Servers_Screenshot_600x338.png",
                   "/episodes/031_tcp_servers.html",
                   false,
-                  219)
+                  219),
+      Episode.new("Episode 032: Command Line Scripts",
+                  "Basic Introduction to writing Elixir scripts that can be invoked and passed arguments from the command line.",
+                  "032_Command_Line_Scripts_Screenshot_600x338.png",
+                  "/episodes/032_command_line_scripts.html",
+                  false,
+                  394)
     ]
   end
 end

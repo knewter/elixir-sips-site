@@ -1,1 +1,1 @@
-rvm ruby-2.0.0@elixir-sips-site --create
+rvm ruby-2.0.0-p247@elixir-sips-site --create
