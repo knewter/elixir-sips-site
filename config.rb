@@ -278,7 +278,13 @@ helpers do
                   "032_Command_Line_Scripts_Screenshot_600x338.png",
                   "/episodes/032_command_line_scripts.html",
                   false,
-                  394)
+                  394),
+      Episode.new("Episode 033: Pry",
+                  "Using IEx.pry to inspect and debug a running process.",
+                  "033_Pry_Screenshot_600x338.png",
+                  "/episodes/033_pry.html",
+                  false,
+                  98)
     ]
   end
 end
