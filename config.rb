@@ -284,6 +284,12 @@ helpers do
                   "033_Pry_Screenshot_600x338.png",
                   "/episodes/033_pry.html",
                   false,
+                  98),
+      Episode.new("Episode 034: Elixiak",
+                  "An ActiveRecord-like wrapper for Riak in Elixir",
+                  "034_Elixiak_Screenshot_600x338.png",
+                  "/episodes/034_elixiak.html",
+                  false,
                   98)
     ]
   end
