@@ -296,7 +296,7 @@ helpers do
                   "035_Weber_Screenshot_600x338.png",
                   "/episodes/035_weber.html",
                   false,
-                  98)
+                  775)
     ]
   end
 end
