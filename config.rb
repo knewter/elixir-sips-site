@@ -290,6 +290,12 @@ helpers do
                   "034_Elixiak_Screenshot_600x338.png",
                   "/episodes/034_elixiak.html",
                   false,
+                  98),
+      Episode.new("Episode 035: Weber",
+                  "Building a basic web app with the Weber MVC framework.",
+                  "035_Weber_Screenshot_600x338.png",
+                  "/episodes/035_weber.html",
+                  false,
                   98)
     ]
   end
