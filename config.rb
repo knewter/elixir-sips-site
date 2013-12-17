@@ -296,7 +296,13 @@ helpers do
                   "035_Weber_Screenshot_600x338.png",
                   "/episodes/035_weber.html",
                   false,
-                  775)
+                  775),
+      Episode.new("Episode 036: Weber, Part 2 - Performance",
+                  "Building a simple cache, and a performance comparison with node.js and ruby.",
+                  "036_Weber_Part_2_Screenshot_600x338.png",
+                  "/episodes/036_weber_part_2.html",
+                  false,
+                  1072)
     ]
   end
 end
