@@ -302,7 +302,13 @@ helpers do
                   "036_Weber_Part_2_Screenshot_600x338.png",
                   "/episodes/036_weber_part_2.html",
                   false,
-                  1072)
+                  1072),
+      Episode.new("Episode 037: ExLager",
+                  "Fantastic logging for your application.",
+                  "037_ExLager_Screenshot_600x338.png",
+                  "/episodes/037_exlager.html",
+                  false,
+                  314)
     ]
   end
 end
