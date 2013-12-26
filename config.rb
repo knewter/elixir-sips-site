@@ -308,7 +308,13 @@ helpers do
                   "037_ExLager_Screenshot_600x338.png",
                   "/episodes/037_exlager.html",
                   false,
-                  314)
+                  314),
+      Episode.new("Episode 038: Binaries - Deconstructing and Constructing",
+                  "Deconstructing and Constructing lists of bits in Elixir.",
+                  "038_Binaries_Deconstructing_and_Constructing_Screenshot_600x338.png",
+                  "/episodes/038_binaries_deconstructing_and_constructing.html",
+                  false,
+                  188)
     ]
   end
 end
