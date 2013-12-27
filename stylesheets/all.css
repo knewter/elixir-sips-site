@@ -5,7 +5,7 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 23, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 23, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 article,
 aside,
 details,
@@ -23,7 +23,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 33, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 33, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 audio,
 canvas,
 video {
@@ -33,7 +33,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 42, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 42, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -41,7 +41,7 @@ audio:not([controls]) {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 51, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 51, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 [hidden] {
   display: none; }
 
@@ -57,7 +57,7 @@ audio:not([controls]) {
  * 4. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 69, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 69, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 html {
   background: #fff;
   /* 1 */
@@ -73,7 +73,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 81, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 81, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 body {
   margin: 0; }
 
@@ -83,14 +83,14 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 93, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 93, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 a:focus {
   outline: thin dotted; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 102, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 102, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -102,7 +102,7 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 115, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 115, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -110,14 +110,14 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 124, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 124, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 133, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 133, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
@@ -125,14 +125,14 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 141, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 141, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 dfn {
   font-style: italic; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 149, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 149, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -141,7 +141,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 159, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 159, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -149,7 +149,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 171, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 171, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 code,
 kbd,
 pre,
@@ -160,28 +160,28 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-/* line 180, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 180, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 pre {
   white-space: pre-wrap; }
 
 /**
  * Set consistent quote types.
  */
-/* line 188, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 188, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 196, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 196, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 205, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 205, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -189,11 +189,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 212, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 212, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 216, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 216, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
@@ -203,14 +203,14 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-/* line 228, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 228, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 img {
   border: 0; }
 
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 236, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 236, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -220,7 +220,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-/* line 248, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 248, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 figure {
   margin: 0; }
 
@@ -230,7 +230,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 260, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 260, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -240,7 +240,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 271, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 271, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -252,7 +252,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 285, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 285, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 button,
 input,
 select,
@@ -268,7 +268,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 297, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 297, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 button,
 input {
   line-height: normal; }
@@ -279,7 +279,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 309, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 309, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 button,
 select {
   text-transform: none; }
@@ -291,7 +291,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 324, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 324, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -304,7 +304,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 334, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 334, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -313,7 +313,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-/* line 344, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 344, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -326,7 +326,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 355, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 355, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -339,7 +339,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 368, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 368, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -347,7 +347,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 377, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 377, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -357,7 +357,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 387, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 387, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -370,7 +370,7 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 400, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_normalize.scss */
+/* line 400, /home/jadams/projects/elixir-sips-site/source/stylesheets/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -6101,81 +6101,81 @@ a.th {
   .f-dropdown.large {
     max-width: 800px; }
 
-/* line 1, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_typography.scss */
+/* line 1, /home/jadams/projects/elixir-sips-site/source/stylesheets/_typography.scss */
 body {
   font-family: 'Source Sans Pro', sans-serif; }
 
-/* line 5, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_typography.scss */
+/* line 5, /home/jadams/projects/elixir-sips-site/source/stylesheets/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif; }
 
-/* line 9, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_typography.scss */
+/* line 9, /home/jadams/projects/elixir-sips-site/source/stylesheets/_typography.scss */
 h1 {
   font-weight: 400; }
 
-/* line 13, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_typography.scss */
+/* line 13, /home/jadams/projects/elixir-sips-site/source/stylesheets/_typography.scss */
 h2 {
   font-weight: 200; }
 
-/* line 1, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 1, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
 header {
   text-align: center;
   margin: 3em 0; }
-  /* line 4, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  /* line 4, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
   header h1 {
     margin-bottom: 0; }
-  /* line 7, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  /* line 7, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
   header h2 {
     font-size: 1.4em;
     margin-top: 0; }
 
-/* line 13, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 13, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
 nav {
   text-align: center;
   margin: 1em 0;
   font-weight: 400;
   font-size: 1.5em; }
-  /* line 18, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  /* line 18, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
   nav a {
     display: inline-block;
     padding: 1em; }
 
-/* line 24, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 24, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
 .container {
   margin-top: 2em; }
 
-/* line 28, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 28, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
 footer {
   text-align: center;
   margin: 4em 0; }
 
-/* line 33, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 33, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
 .subscribe_button_wrapper {
   text-align: center;
   margin: 2em 0; }
 
-/* line 38, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 38, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
 p.note {
   padding: 1em; }
 
-/* line 42, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 42, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
 .episode {
   text-align: center; }
 
-/* line 47, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 47, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
 .episodes-list .episode-list-item {
   width: 33%;
   text-align: center;
   vertical-align: top;
   display: inline-block; }
-  /* line 52, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  /* line 52, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
   .episodes-list .episode-list-item > a {
     padding: 1em;
     display: block; }
-    /* line 55, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    /* line 55, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
     .episodes-list .episode-list-item > a .episode-list-item-screenshot {
       position: relative; }
-      /* line 57, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+      /* line 57, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
       .episodes-list .episode-list-item > a .episode-list-item-screenshot img.play {
         position: absolute;
         left: 25%;
@@ -6190,7 +6190,7 @@ p.note {
         transition-duration: 1s;
         filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
         opacity: 0.5; }
-      /* line 65, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+      /* line 65, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
       .episodes-list .episode-list-item > a .episode-list-item-screenshot img.cover-image {
         -webkit-transition-property: opacity;
         -moz-transition-property: opacity;
@@ -6202,16 +6202,16 @@ p.note {
         transition-duration: 1s;
         filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
         opacity: 0.5; }
-    /* line 72, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    /* line 72, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
     .episodes-list .episode-list-item > a:hover img.cover-image {
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
       opacity: 1; }
-    /* line 75, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    /* line 75, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
     .episodes-list .episode-list-item > a:hover img.play {
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
       opacity: 1; }
 
-/* line 83, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 83, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
 .intro {
   width: 100%;
   margin-left: auto;
@@ -6228,7 +6228,7 @@ p.note {
   /* line 122, /home/jadams/.rvm/gems/ruby-2.0.0-p247@elixir-sips-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
   .intro:after {
     clear: both; }
-  /* line 86, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  /* line 86, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
   .intro .author_info {
     position: relative;
     padding-left: 0.9375em;
@@ -6236,13 +6236,13 @@ p.note {
     width: 25%;
     float: left;
     text-align: center; }
-    /* line 89, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    /* line 89, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
     .intro .author_info img {
       margin-top: .5em; }
-    /* line 92, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    /* line 92, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
     .intro .author_info .byline {
       margin-top: 1em; }
-  /* line 96, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  /* line 96, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
   .intro .intro_text {
     position: relative;
     padding-left: 0.9375em;
@@ -6250,7 +6250,7 @@ p.note {
     width: 75%;
     float: left; }
 
-/* line 101, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+/* line 101, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
 .intro_episodes {
   width: 100%;
   margin-left: auto;
@@ -6266,7 +6266,7 @@ p.note {
   /* line 122, /home/jadams/.rvm/gems/ruby-2.0.0-p247@elixir-sips-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
   .intro_episodes:after {
     clear: both; }
-  /* line 104, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  /* line 104, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
   .intro_episodes .example_episode {
     position: relative;
     padding-left: 0.9375em;
@@ -6274,7 +6274,7 @@ p.note {
     width: 50%;
     float: left;
     text-align: center; }
-  /* line 109, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+  /* line 109, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
   .intro_episodes .latest_episode {
     position: relative;
     padding-left: 0.9375em;
@@ -6282,76 +6282,76 @@ p.note {
     width: 50%;
     float: left;
     text-align: center; }
-    /* line 112, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_layout.scss */
+    /* line 112, /home/jadams/projects/elixir-sips-site/source/stylesheets/_layout.scss */
     .intro_episodes .latest_episode img {
       margin-top: 2em;
       margin-bottom: .5em; }
 
-/* line 11, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 11, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 html {
   height: 100%; }
 
-/* line 15, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 15, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 body {
   background: url(../images/twinkle_twinkle.png);
   min-height: 100%; }
 
-/* line 21, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 21, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 header h1 {
   color: #a531dd; }
-/* line 24, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 24, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 header h2 {
   color: #6dc8df;
   text-transform: uppercase; }
 
-/* line 30, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 30, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 nav {
   text-transform: uppercase; }
-  /* line 32, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+  /* line 32, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
   nav a {
     color: #a531dd;
     font-weight: 200; }
-    /* line 35, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+    /* line 35, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
     nav a.active {
       color: white; }
 
-/* line 41, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 41, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 .container {
   color: #cccccc; }
-  /* line 44, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+  /* line 44, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
   .container h3, .container h4, .container h5, .container h6 {
     color: white; }
 
-/* line 49, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 49, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 footer {
   color: #cccccc; }
 
-/* line 54, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 54, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 .subscribe_button_wrapper a.subscribe.button {
   font-size: 1.5em;
   background-color: #a531dd;
   border: 0;
   text-transform: uppercase;
   font-weight: 400; }
-  /* line 60, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+  /* line 60, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
   .subscribe_button_wrapper a.subscribe.button:hover {
     background-color: #8427b0; }
-/* line 64, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 64, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 .subscribe_button_wrapper h5.subscribe_subtext {
   color: #6dc8df;
   font-weight: 200; }
 
-/* line 70, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 70, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 p.note {
   background-color: #f8ffc5;
   color: #333333; }
 
-/* line 77, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 77, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 .episodes-list .episode-list-item:hover {
   background: rgba(255, 255, 255, 0.1); }
-/* line 81, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 81, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 .episodes-list .episode-list-item > a p {
   color: #cccccc; }
-/* line 85, /home/jadams/ruby/elixir-sips-site/source/stylesheets/_theme.scss */
+/* line 85, /home/jadams/projects/elixir-sips-site/source/stylesheets/_theme.scss */
 .episodes-list .episode-list-item:last-child {
   border-bottom: 0; }
