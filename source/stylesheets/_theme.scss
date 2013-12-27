@@ -74,7 +74,9 @@ p.note {
 
 .episodes-list {
   .episode-list-item {
-    border-bottom: 1px solid $rule-color;
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
     > a {
       p {
         color: $text-primary-color;

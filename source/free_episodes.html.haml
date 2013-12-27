@@ -1,14 +1,13 @@
 ---
-title: Episodes | Elixir Sips
+title: Free Episodes | Elixir Sips
 ---
 
-%p
-  Below, you'll find the list of episodes so far. #{link_to "A few are available to watch without a subscription.", "/free_episodes.html"}  For the rest, just sign up below.
+%p Here are all of the free episodes so far.  For the rest, just sign up below.
 
 = partial 'partials/subscribe_button'
 
 .episodes-list
-  - episodes.each do |episode|
+  - free_episodes.each do |episode|
     .episode-list-item
       %a{ href: episode.url }
         %h5= episode.title_with_subscriber_tag

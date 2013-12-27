@@ -45,23 +45,28 @@ p.note {
 
 .episodes-list {
   .episode-list-item {
+    width: 33%;
     text-align: center;
-    margin: 1em 0;
+    vertical-align: top;
+    display: inline-block;
     > a {
+      padding: 1em;
       display: block;
-      position: relative;
-      img.play {
-        position: absolute;
-        left: 38%;
-        top: 17%;
-        @include transition-property(opacity);
-        @include transition-duration(1s);
-        @include opacity(0.5);
-      }
-      img.cover-image {
-        @include transition-property(opacity);
-        @include transition-duration(1s);
-        @include opacity(0.5);
+      .episode-list-item-screenshot {
+        position: relative;
+        img.play {
+          position: absolute;
+          left: 25%;
+          top: 0%;
+          @include transition-property(opacity);
+          @include transition-duration(1s);
+          @include opacity(0.5);
+        }
+        img.cover-image {
+          @include transition-property(opacity);
+          @include transition-duration(1s);
+          @include opacity(0.5);
+        }
       }
       &:hover {
         img.cover-image {
