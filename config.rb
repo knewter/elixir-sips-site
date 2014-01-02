@@ -340,6 +340,12 @@ helpers do
                   "040_Bitwise_Screenshot",
                   "/episodes/040_bitwise.html",
                   false,
+                  195),
+      Episode.new("041: File, Part 1",
+                  "A brief overview of the first portion of the File module from the standard library",
+                  "041_File_Part_1_Screenshot",
+                  "/episodes/041_file_part_1.html",
+                  false,
                   195)
     ]
   end
