@@ -334,7 +334,13 @@ helpers do
                   "039_Binaries_Deconstructing_an_IP_Packet_Screenshot",
                   "/episodes/039_binaries_deconstructing_an_ip_packet.html",
                   false,
-                  407)
+                  407),
+      Episode.new("040: Bitwise",
+                  "Manipulating bits; typically useful for wire protocols.",
+                  "040_Bitwise_Screenshot",
+                  "/episodes/040_bitwise.html",
+                  false,
+                  195)
     ]
   end
 end
