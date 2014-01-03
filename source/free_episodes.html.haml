@@ -8,7 +8,11 @@ title: Free Episodes | Elixir Sips
 
 .episodes-list
   - free_episodes.each do |episode|
-    .episode-list-item
+    .episode-list-item{itemprop: "video", itemscope: true, itemtype: "http://schema.org/VideoObject"}
+      %meta{itemprop: "thumbnail", content: episode.cover_image_url}
+      %meta{itemprop: "description", content: episode.synopsis}
+      %meta{itemprop: "duration", content: schema_duration(episode.length)}
+      %meta{itemprop: "name", content: episode.title}
       %a{ href: episode.url }
         %h5= episode.title_with_subscriber_tag
         .episode-list-item-screenshot
