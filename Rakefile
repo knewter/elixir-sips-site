@@ -1,5 +1,6 @@
 require 'middleman-gh-pages'
 require 'sitemap_generator/tasks'
+require 'sitemap_generator'
 
 namespace :sitemap do
   desc "Ping search engines re: sitemap"
