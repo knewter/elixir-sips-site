@@ -1,5 +1,5 @@
 .episode{itemprop: "video", itemscope: true, itemtype: "http://schema.org/VideoObject"}
-  %meta{itemprop: "thumbnail", content: episode.cover_image_url}
+  %meta{itemprop: "thumbnail", content: url("images/#{episode.cover_image_url}")}
   %meta{itemprop: "name", content: episode.title}
   %h3
     %span{itemprop: "name"}= episode.title_with_subscriber_tag

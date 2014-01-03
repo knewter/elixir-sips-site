@@ -11,7 +11,7 @@ title: Episodes | Elixir Sips
   - episodes.each do |episode|
 
     .episode-list-item{itemprop: "video", itemscope: true, itemtype: "http://schema.org/VideoObject"}
-      %meta{itemprop: "thumbnail", content: "http://elixirsips.com/images/" + episode.cover_image_url}
+      %meta{itemprop: "thumbnail", content: url("images/#{episode.cover_image_url}")}
       %meta{itemprop: "description", content: episode.synopsis}
       %meta{itemprop: "duration", content: schema_duration(episode.length)}
       %meta{itemprop: "name", content: episode.title}

@@ -113,6 +113,10 @@ helpers do
     end
   end
 
+  def url(path)
+    "http://elixirsips.com/#{path}"
+  end
+
   def episodes
     [
       Episode.new("001: Introduction and Installing Elixir",
