@@ -16,7 +16,11 @@ title: Elixir Sips | Learn Elixir With a Pro
       and more every week!
 
 .intro_episodes
-  .latest_episode
+  .latest_episode{itemprop: "video", itemscope: true, itemtype: "http://schema.org/VideoObject"}
+    %meta{itemprop: "thumbnail", content: latest_episode.cover_image_url}
+    %meta{itemprop: "description", content: latest_episode.synopsis}
+    %meta{itemprop: "duration", content: schema_duration(latest_episode.length)}
+    %meta{itemprop: "name", content: latest_episode.title}
     %h3 Latest Episode
     = link_to image_tag(latest_episode.cover_image_url), latest_episode.url
     %p= link_to latest_episode.title_with_subscriber_tag, latest_episode.url

@@ -83,14 +83,24 @@ helpers do
     episodes.last
   end
 
-  def hours_and_minutes(total_seconds)
+  def raw_hours_and_minutes(total_seconds)
     total_minutes = total_seconds / 60
     hours = total_minutes / 60
     minutes = total_minutes - (hours * 60)
     seconds = total_seconds - (minutes * 60) - (hours * 60 * 60)
+    [hours, minutes, seconds]
+  end
+
+  def hours_and_minutes(total_seconds)
+    hours, minutes, seconds = raw_hours_and_minutes(total_seconds)
     pretty_minutes = minutes.to_s.rjust(2, "0")
     pretty_seconds = seconds.to_s.rjust(2, "0")
     "#{hours}:#{pretty_minutes}:#{pretty_seconds}"
+  end
+
+  def schema_duration(total_seconds)
+    hours, minutes, seconds = raw_hours_and_minutes(total_seconds)
+    "T#{minutes}M#{seconds}S"
   end
 
   def total_time
