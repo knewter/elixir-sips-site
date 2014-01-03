@@ -1,6 +1,7 @@
 .episode{itemprop: "video", itemscope: true, itemtype: "http://schema.org/VideoObject"}
   %h3
     %span{itemprop: "name"}= episode.title
+  %p.byline by #{link_to "Josh Adams", "https://plus.google.com/+JoshAdams"}
 
   .flex-video
     <iframe src="#{video_url}" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="360"></iframe>
