@@ -4,6 +4,7 @@ GEM
     activesupport (3.2.14)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
+    builder (3.2.2)
     chunky_png (1.2.8)
     coffee-script (2.2.0)
       coffee-script-source
@@ -79,6 +80,8 @@ GEM
       ffi (>= 0.5.0)
     ruby18_source_location (0.2)
     sass (3.2.10)
+    sitemap_generator (4.3.1)
+      builder
     sprockets (2.10.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -105,5 +108,6 @@ DEPENDENCIES
   middleman-gh-pages
   middleman-livereload (~> 3.1.0)
   ruby18_source_location
+  sitemap_generator
   wdm (~> 0.1.0)
   zurb-foundation

@@ -1,3 +1,5 @@
+require 'extensions/sitemap'
+
 ###
 # Compass
 ###
@@ -37,6 +39,8 @@
 
 # Reload the browser automatically whenever files change
 activate :livereload
+
+activate :sitemap_generator
 
 # Methods defined in the helpers block are available in templates
 # helpers do

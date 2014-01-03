@@ -7,6 +7,8 @@ gem "middleman", "~>3.1.4"
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
+gem "sitemap_generator"
+
 # Sync to GitHub Pages
 gem 'middleman-gh-pages'
 
