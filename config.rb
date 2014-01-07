@@ -360,11 +360,17 @@ helpers do
                   false,
                   195),
       Episode.new("041: File, Part 1",
-                  "A brief overview of the first portion of the File module from the standard library",
+                  "A brief overview of the first portion of the File module from the standard library.",
                   "041_File_Part_1_Screenshot",
                   "/episodes/041_file_part_1.html",
                   false,
-                  195)
+                  195),
+      Episode.new("042: File, Part 2",
+                  "An overview of the second half of the File module from the standard library.",
+                  "042_File_Part_2_Screenshot",
+                  "/episodes/042_file_part_2.html",
+                  false,
+                  234)
     ]
   end
 end
