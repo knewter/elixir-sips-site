@@ -370,7 +370,13 @@ helpers do
                   "042_File_Part_2_Screenshot",
                   "/episodes/042_file_part_2.html",
                   false,
-                  234)
+                  234),
+      Episode.new("043: Releases With Relex",
+                  "Making your Elixir application redistributable using Erlang releases.",
+                  "043_Releases_With_Relex_Screenshot",
+                  "/episodes/043_releases_with_relex.html",
+                  false,
+                  252)
     ]
   end
 end
