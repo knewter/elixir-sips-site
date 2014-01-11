@@ -375,7 +375,7 @@ helpers do
                   "Making your Elixir application redistributable using Erlang releases.",
                   "043_Releases_With_Relex_Screenshot",
                   "/episodes/043_releases_with_relex.html",
-                  false,
+                  true,
                   252)
     ]
   end
