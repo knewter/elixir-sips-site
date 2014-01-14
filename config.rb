@@ -376,7 +376,13 @@ helpers do
                   "043_Releases_With_Relex_Screenshot",
                   "/episodes/043_releases_with_relex.html",
                   true,
-                  252)
+                  252),
+      Episode.new("044: Distribution",
+                  "Sending messages from one Elixir node to another.",
+                  "044_Distribution_Screenshot",
+                  "/episodes/044_distribution.html",
+                  true,
+                  120)
     ]
   end
 end
