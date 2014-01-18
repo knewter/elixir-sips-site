@@ -382,7 +382,13 @@ helpers do
                   "044_Distribution_Screenshot",
                   "/episodes/044_distribution.html",
                   true,
-                  120)
+                  120),
+      Episode.new("045: Distribution, Part 2",
+                  "Sending messages to remote machines, and Joe Armstrong's favorite program.",
+                  "045_Distribution_Part_2_Screenshot",
+                  "/episodes/045_distribution_part_2.html",
+                  true,
+                  190)
     ]
   end
 end
