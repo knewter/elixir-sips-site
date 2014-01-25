@@ -394,7 +394,13 @@ helpers do
                   "046_Markdown_Server_Part_1_Screenshot",
                   "/episodes/046_markdown_server_part_1.html",
                   false,
-                  408)
+                  408),
+      Episode.new("047: Markdown Server, Part 2",
+                  "Writing an integration test suite and dealing with macros for the first time.",
+                  "047_Markdown_Server_Part_2_Screenshot",
+                  "/episodes/047_markdown_server_part_2.html",
+                  false,
+                  560)
     ]
   end
 end
