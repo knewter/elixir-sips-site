@@ -381,14 +381,20 @@ helpers do
                   "Sending messages from one Elixir node to another.",
                   "044_Distribution_Screenshot",
                   "/episodes/044_distribution.html",
-                  true,
+                  false,
                   120),
       Episode.new("045: Distribution, Part 2",
                   "Sending messages to remote machines, and Joe Armstrong's favorite program.",
                   "045_Distribution_Part_2_Screenshot",
                   "/episodes/045_distribution_part_2.html",
-                  true,
-                  190)
+                  false,
+                  190),
+      Episode.new("046: Markdown Server, Part 1",
+                  "Building an HTTP Server to render Markdown files, using the Phoenix web framework.",
+                  "046_Markdown_Server_Part_1_Screenshot",
+                  "/episodes/046_markdown_server_part_1.html",
+                  false,
+                  408)
     ]
   end
 end
