@@ -406,7 +406,13 @@ helpers do
                   "048_Markdown_Server_Part_3_Screenshot",
                   "/episodes/048_markdown_server_part_3.html",
                   false,
-                  525)
+                  525),
+      Episode.new("049: Markdown Server, Part 4",
+                  "Building a poor man's livereload system using inotify and websockets.",
+                  "049_Markdown_Server_Part_4_Screenshot",
+                  "/episodes/049_markdown_server_part_4.html",
+                  false,
+                  471)
     ]
   end
 end
