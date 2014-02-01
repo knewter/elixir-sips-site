@@ -400,7 +400,13 @@ helpers do
                   "047_Markdown_Server_Part_2_Screenshot",
                   "/episodes/047_markdown_server_part_2.html",
                   false,
-                  560)
+                  560),
+      Episode.new("048: Markdown Server, Part 3",
+                  "Using Eml for markup, and bringing in Compassand Zurb Foundation for styles.",
+                  "048_Markdown_Server_Part_3_Screenshot",
+                  "/episodes/048_markdown_server_part_3.html",
+                  false,
+                  525)
     ]
   end
 end
