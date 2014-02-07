@@ -402,7 +402,7 @@ helpers do
                   false,
                   560),
       Episode.new("048: Markdown Server, Part 3",
-                  "Using Eml for markup, and bringing in Compassand Zurb Foundation for styles.",
+                  "Using Eml for markup, and bringing in Compass and Zurb Foundation for styles.",
                   "048_Markdown_Server_Part_3_Screenshot",
                   "/episodes/048_markdown_server_part_3.html",
                   false,
