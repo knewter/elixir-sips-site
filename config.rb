@@ -412,7 +412,13 @@ helpers do
                   "049_Markdown_Server_Part_4_Screenshot",
                   "/episodes/049_markdown_server_part_4.html",
                   false,
-                  471)
+                  471),
+      Episode.new("050: Markdown Server, Part 5",
+                  "Accepting environment variables for configuration and filtering out files we don't want. Plus, a call to action to build BEAM Toolbox.",
+                  "050_Markdown_Server_Part_5_Screenshot",
+                  "/episodes/050_markdown_server_part_5.html",
+                  false,
+                  255)
     ]
   end
 end
