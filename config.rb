@@ -418,7 +418,13 @@ helpers do
                   "050_Markdown_Server_Part_5_Screenshot",
                   "/episodes/050_markdown_server_part_5.html",
                   false,
-                  255)
+                  255),
+      Episode.new("051: BEAM Toolbox, Part 1",
+                  "Introducing BEAM Toolbox and starting work on the data layer.",
+                  "051_BEAM_Toolbox_Part_1_Screenshot",
+                  "/episodes/051_beam_toolbox_part_1.html",
+                  false,
+                  478)
     ]
   end
 end
