@@ -424,7 +424,13 @@ helpers do
                   "051_BEAM_Toolbox_Part_1_Screenshot",
                   "/episodes/051_beam_toolbox_part_1.html",
                   false,
-                  478)
+                  478),
+      Episode.new("052: BEAM Toolbox, Part 2",
+                  "Further work on the data layer, and  introducing defoverridable.",
+                  "052_BEAM_Toolbox_Part_2_Screenshot",
+                  "/episodes/052_beam_toolbox_part_2.html",
+                  false,
+                  599)
     ]
   end
 end
