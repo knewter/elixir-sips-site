@@ -430,7 +430,13 @@ helpers do
                   "052_BEAM_Toolbox_Part_2_Screenshot",
                   "/episodes/052_beam_toolbox_part_2.html",
                   false,
-                  599)
+                  599),
+      Episode.new("053: BEAM Toolbox, Part 3",
+                  "Adding an integration testing layer that drives a browser using Hound, extracting a Controller helper, and adding Project pages.",
+                  "053_BEAM_Toolbox_Part_3_Screenshot",
+                  "/episodes/053_beam_toolbox_part_3.html",
+                  false,
+                  460)
     ]
   end
 end
