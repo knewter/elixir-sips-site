@@ -436,7 +436,13 @@ helpers do
                   "053_BEAM_Toolbox_Part_3_Screenshot",
                   "/episodes/053_beam_toolbox_part_3.html",
                   false,
-                  460)
+                  460),
+      Episode.new("054: Maps, Part 1",
+                  "An introduction to maps, a new feature in Erlang R17 and Elixir 0.13",
+                  "054_Maps_Part_1_Screenshot",
+                  "/episodes/054_maps_part_1.html",
+                  false,
+                  171)
     ]
   end
 end
