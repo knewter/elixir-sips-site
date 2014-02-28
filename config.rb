@@ -442,7 +442,13 @@ helpers do
                   "054_Maps_Part_1_Screenshot",
                   "/episodes/054_maps_part_1.html",
                   false,
-                  171)
+                  171),
+      Episode.new("055: Maps, Part 2 - Structs",
+                  "Introducing structs and demonstrating how they can take the place of public Records.",
+                  "055_Maps_Part_2_Screenshot",
+                  "/episodes/055_maps_part_2.html",
+                  false,
+                  143)
     ]
   end
 end
