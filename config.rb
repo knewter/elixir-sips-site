@@ -441,13 +441,13 @@ helpers do
                   "An introduction to maps, a new feature in Erlang R17 and Elixir 0.13",
                   "054_Maps_Part_1_Screenshot",
                   "/episodes/054_maps_part_1.html",
-                  false,
+                  true,
                   171),
       Episode.new("055: Maps, Part 2 - Structs",
                   "Introducing structs and demonstrating how they can take the place of public Records.",
                   "055_Maps_Part_2_Screenshot",
                   "/episodes/055_maps_part_2.html",
-                  false,
+                  true,
                   143)
     ]
   end
