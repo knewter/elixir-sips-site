@@ -454,7 +454,13 @@ helpers do
                   "056_Migrating_Records_To_Maps_Screenshot",
                   "/episodes/056_migrating_records_to_maps.html",
                   false,
-                  179)
+                  179),
+      Episode.new("057: BEAM Toolbox, Part 4",
+                  "Moving our ad-hoc, tuple-based data layer to one powered by maps/structs.",
+                  "057_BEAM_Toolbox_Part_4_Screenshot",
+                  "/episodes/057_beam_toolbox_part_4.html",
+                  false,
+                  514)
     ]
   end
 end
