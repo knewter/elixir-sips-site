@@ -448,7 +448,13 @@ helpers do
                   "055_Maps_Part_2_Screenshot",
                   "/episodes/055_maps_part_2.html",
                   true,
-                  143)
+                  143),
+      Episode.new("056: Migrating Records to Maps",
+                  "Converting a production use of Records to use maps instead.",
+                  "056_Migrating_Records_To_Maps_Screenshot",
+                  "/episodes/056_migrating_records_to_maps.html",
+                  false,
+                  179)
     ]
   end
 end
