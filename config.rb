@@ -460,7 +460,13 @@ helpers do
                   "057_BEAM_Toolbox_Part_4_Screenshot",
                   "/episodes/057_beam_toolbox_part_4.html",
                   false,
-                  514)
+                  514),
+      Episode.new("058: BEAM Toolbox, Part 5",
+                  "Building a module that caches our GitHub data for a given project.",
+                  "058_BEAM_Toolbox_Part_5_Screenshot",
+                  "/episodes/058_beam_toolbox_part_5.html",
+                  false,
+                  319)
     ]
   end
 end
