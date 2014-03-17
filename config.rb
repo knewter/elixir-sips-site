@@ -466,7 +466,13 @@ helpers do
                   "058_BEAM_Toolbox_Part_5_Screenshot",
                   "/episodes/058_beam_toolbox_part_5.html",
                   false,
-                  319)
+                  319),
+      Episode.new("059: Custom Mix Tasks",
+                  "Looking at building a basic mix task, and how you can go about testing it.",
+                  "059_Custom_Mix_Tasks_Screenshot",
+                  "/episodes/059_custom_mix_tasks.html",
+                  false,
+                  177)
     ]
   end
 end
