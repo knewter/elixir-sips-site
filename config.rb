@@ -472,7 +472,13 @@ helpers do
                   "059_Custom_Mix_Tasks_Screenshot",
                   "/episodes/059_custom_mix_tasks.html",
                   false,
-                  177)
+                  177),
+      Episode.new("060: New Style Comprehensions",
+                  "An overview of the revamped comprehensions in Elixir v0.13",
+                  "060_New_Style_Comprehensions_Screenshot",
+                  "/episodes/060_new_style_comprehensions.html",
+                  false,
+                  158)
     ]
   end
 end
