@@ -478,7 +478,13 @@ helpers do
                   "060_New_Style_Comprehensions_Screenshot",
                   "/episodes/060_new_style_comprehensions.html",
                   false,
-                  158)
+                  158),
+      Episode.new("061: Plug",
+                  "Exploring Elixir's library for building composable web application modules.",
+                  "061_Plug_Screenshot",
+                  "/episodes/061_plug.html",
+                  false,
+                  367)
     ]
   end
 end
