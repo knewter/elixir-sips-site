@@ -484,7 +484,13 @@ helpers do
                   "061_Plug_Screenshot",
                   "/episodes/061_plug.html",
                   false,
-                  367)
+                  367),
+      Episode.new("062: Quickie Synth",
+                  "Using processes, gs, and shelling out to `sox` to build an Elixir-based synthesizer module.",
+                  "062_Quickie_Synth_Screenshot",
+                  "/episodes/062_quickie_synth.html",
+                  true,
+                  584)
     ]
   end
 end
