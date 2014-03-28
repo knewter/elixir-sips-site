@@ -490,7 +490,13 @@ helpers do
                   "062_Quickie_Synth_Screenshot",
                   "/episodes/062_quickie_synth.html",
                   true,
-                  584)
+                  584),
+      Episode.new("063: Tracing",
+                  "A quick tour of the `dbg` module from Erlang, and its tracing features.",
+                  "063_Tracing_Screenshot",
+                  "/episodes/063_tracing.html",
+                  true,
+                  233)
     ]
   end
 end
