@@ -502,7 +502,13 @@ helpers do
                   "064_Digraphs_Screenshot",
                   "/episodes/064_digraph.html",
                   false,
-                  657)
+                  657),
+      Episode.new("065: SSH",
+                  "Using Erlang's `ssh` module to provide ssh access to a shell running your Elixir code.",
+                  "065_SSH_Screenshot",
+                  "/episodes/065_ssh.html",
+                  false,
+                  126)
     ]
   end
 end
