@@ -495,8 +495,14 @@ helpers do
                   "A quick tour of the `dbg` module from Erlang, and its tracing features.",
                   "063_Tracing_Screenshot",
                   "/episodes/063_tracing.html",
-                  true,
-                  233)
+                  false,
+                  233),
+      Episode.new("064: Digraph",
+                  "A look at using the `digraph`module from the Erlang standard library to implement pathfinding on a map.",
+                  "064_Digraphs_Screenshot",
+                  "/episodes/064_digraph.html",
+                  false,
+                  657)
     ]
   end
 end
