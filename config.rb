@@ -508,7 +508,13 @@ helpers do
                   "065_SSH_Screenshot",
                   "/episodes/065_ssh.html",
                   false,
-                  126)
+                  126),
+      Episode.new("066: Plug.Static",
+                  "Serving static files without an opaque and complicated-looking cowboy handler.",
+                  "066_Plug_Static_Screenshot",
+                  "/episodes/066_plug_static.html",
+                  false,
+                  120)
     ]
   end
 end
