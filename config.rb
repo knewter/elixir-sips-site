@@ -514,7 +514,13 @@ helpers do
                   "066_Plug_Static_Screenshot",
                   "/episodes/066_plug_static.html",
                   false,
-                  120)
+                  120),
+      Episode.new("067: Deploying to Heroku",
+                  "Using HashNuke's Elixir buildpack for Heroku to deploy BEAM Toolbox.  Also, a brief intro to ExConf.",
+                  "067_Deploying_to_Heroku_Screenshot",
+                  "/episodes/067_deploying_to_heroku.html",
+                  false,
+                  383)
     ]
   end
 end
