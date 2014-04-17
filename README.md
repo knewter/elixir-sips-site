@@ -15,6 +15,14 @@ you just run publish, it won't ping search engines.
 
 ## Development
 
+To develop with the site, you need to install the required gems:
+
+```
+bundle
+```
+
+That will install the gems from the Gemfile.
+
 While developing the site:
 
 ```
