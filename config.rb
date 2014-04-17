@@ -520,7 +520,13 @@ helpers do
                   "067_Deploying_to_Heroku_Screenshot",
                   "/episodes/067_deploying_to_heroku.html",
                   false,
-                  383)
+                  383),
+      Episode.new("068: Port",
+                  "Interacting with external programs as if they were simple processes.",
+                  "068_Port_Screenshot",
+                  "/episodes/068_port.html",
+                  false,
+                  238)
     ]
   end
 end
