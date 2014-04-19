@@ -526,6 +526,12 @@ helpers do
                   "068_Port_Screenshot",
                   "/episodes/068_port.html",
                   false,
+                  238),
+      Episode.new("069: Observer",
+                  "A graphical tool for inspection of a running Erlang/Elixir system and its processes.",
+                  "069_Observer_Screenshot",
+                  "/episodes/069_observer.html",
+                  false,
                   238)
     ]
   end
