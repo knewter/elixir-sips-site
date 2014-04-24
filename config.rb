@@ -532,7 +532,13 @@ helpers do
                   "069_Observer_Screenshot",
                   "/episodes/069_observer.html",
                   false,
-                  238)
+                  238),
+      Episode.new("070: Hex",
+                  "Elixir's new package manager.",
+                  "070_Hex_Screenshot",
+                  "/episodes/070_hex.html",
+                  false,
+                  178)
     ]
   end
 end
