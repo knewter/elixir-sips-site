@@ -538,7 +538,13 @@ helpers do
                   "070_Hex_Screenshot",
                   "/episodes/070_hex.html",
                   false,
-                  178)
+                  178),
+      Episode.new("071: Wx",
+                  "Building a GUI calculator using Erlang's native wx bindings.",
+                  "071_Wx_Screenshot",
+                  "/episodes/071_wx.html",
+                  false,
+                  496)
     ]
   end
 end
