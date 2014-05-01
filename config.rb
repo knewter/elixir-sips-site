@@ -550,7 +550,13 @@ helpers do
                   "072_WxCalc_Part_2_Screenshot",
                   "/episodes/072_wxcalc_part_2.html",
                   false,
-                  1126)
+                  1126),
+      Episode.new("073: Process Dictionaries",
+                  "Process-local state that you likely should never use :)",
+                  "073_Process_Dictionaries_Screenshot",
+                  "/episodes/073_process_dictionaries.html",
+                  false,
+                  140)
     ]
   end
 end
