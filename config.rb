@@ -544,7 +544,13 @@ helpers do
                   "071_Wx_Screenshot",
                   "/episodes/071_wx.html",
                   false,
-                  496)
+                  496),
+      Episode.new("072: WxCalc, Part 2",
+                  "Implementing our calculator's logic and wiring it up to wx events.",
+                  "072_WxCalc_Part_2_Screenshot",
+                  "/episodes/072_wxcalc_part_2.html",
+                  false,
+                  1126)
     ]
   end
 end
