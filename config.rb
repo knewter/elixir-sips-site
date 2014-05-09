@@ -556,7 +556,13 @@ helpers do
                   "073_Process_Dictionaries_Screenshot",
                   "/episodes/073_process_dictionaries.html",
                   false,
-                  140)
+                  140),
+      Episode.new("074: ETS",
+                  "Erlang term storage - a queryable database for your processes to store terms in.",
+                  "074_ETS_Screenshot",
+                  "/episodes/074_ets.html",
+                  false,
+                  498)
     ]
   end
 end
