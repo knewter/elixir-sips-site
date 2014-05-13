@@ -562,7 +562,13 @@ helpers do
                   "074_ETS_Screenshot",
                   "/episodes/074_ets.html",
                   false,
-                  498)
+                  498),
+      Episode.new("075: DETS",
+                  "A disk-based version of ETS with a few restrictions.",
+                  "075_DETS_Screenshot",
+                  "/episodes/075_dets.html",
+                  false,
+                  269)
     ]
   end
 end
