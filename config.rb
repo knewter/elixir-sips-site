@@ -568,7 +568,13 @@ helpers do
                   "075_DETS_Screenshot",
                   "/episodes/075_dets.html",
                   false,
-                  269)
+                  269),
+      Episode.new("076: Streams",
+                  "A brief overview of Elixir's 'lazy, composable Enumerables'",
+                  "076_Streams_Screenshot",
+                  "/episodes/076_streams.html",
+                  false,
+                  188)
     ]
   end
 end
