@@ -574,7 +574,13 @@ helpers do
                   "076_Streams_Screenshot",
                   "/episodes/076_streams.html",
                   false,
-                  188)
+                  188),
+      Episode.new("077: Exceptions and Errors",
+                  "Manually raising exceptions, handling them, defining your own, and using them idiomatically.",
+                  "077_Exceptions_and_Errors_Screenshot",
+                  "/episodes/077_exceptions_and_errors.html",
+                  false,
+                  137)
     ]
   end
 end
