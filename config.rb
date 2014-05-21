@@ -580,7 +580,13 @@ helpers do
                   "077_Exceptions_and_Errors_Screenshot",
                   "/episodes/077_exceptions_and_errors.html",
                   false,
-                  137)
+                  137),
+      Episode.new("078: Agents",
+                  "A simple abstraction around state",
+                  "078_Agents_Screenshot",
+                  "/episodes/078_agents.html",
+                  false,
+                  344)
     ]
   end
 end
