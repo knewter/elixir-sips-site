@@ -586,7 +586,13 @@ helpers do
                   "078_Agents_Screenshot",
                   "/episodes/078_agents.html",
                   false,
-                  344)
+                  344),
+      Episode.new("079: Tasks",
+                  "An abstraction for computing a value in the background and receiving the value later.",
+                  "079_Tasks_Screenshot",
+                  "/episodes/079_tasks.html",
+                  false,
+                  311)
     ]
   end
 end
