@@ -592,7 +592,13 @@ helpers do
                   "079_Tasks_Screenshot",
                   "/episodes/079_tasks.html",
                   false,
-                  311)
+                  311),
+      Episode.new("080: erlubi",
+                  "A client for the Ubigraph visualization server, and an easy way to view a BEAM application's supervision tree in 3D.",
+                  "080_erlubi_Screenshot",
+                  "/episodes/080_erlubi.html",
+                  false,
+                  303)
     ]
   end
 end
