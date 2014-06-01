@@ -598,7 +598,13 @@ helpers do
                   "080_erlubi_Screenshot",
                   "/episodes/080_erlubi.html",
                   false,
-                  303)
+                  303),
+      Episode.new("081: EEx",
+                  "Elixir's built-in templating language, useful for embedding Elixir code inside of a string.",
+                  "081_EEx_Screenshot",
+                  "/episodes/081_eex.html",
+                  true,
+                  216)
     ]
   end
 end
