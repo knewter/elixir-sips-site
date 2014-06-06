@@ -604,7 +604,13 @@ helpers do
                   "081_EEx_Screenshot",
                   "/episodes/081_eex.html",
                   true,
-                  216)
+                  216),
+      Episode.new("082: Protocols",
+                  "A fantastic method for polymorphism in Elixir.  Pairs well with structs.  Slight oaky flavor.",
+                  "082_Protocols_Screenshot",
+                  "/episodes/082_protocols.html",
+                  false,
+                  238)
     ]
   end
 end
