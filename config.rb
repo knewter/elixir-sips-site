@@ -610,7 +610,13 @@ helpers do
                   "082_Protocols_Screenshot",
                   "/episodes/082_protocols.html",
                   false,
-                  238)
+                  238),
+      Episode.new("083: pg2",
+                  "A replacement for the `pg` module that has some better semantics for distribution.",
+                  "083_pg2_Screenshot",
+                  "/episodes/083_pg2.html",
+                  false,
+                  332)
     ]
   end
 end
