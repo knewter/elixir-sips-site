@@ -616,7 +616,13 @@ helpers do
                   "083_pg2_Screenshot",
                   "/episodes/083_pg2.html",
                   false,
-                  332)
+                  332),
+      Episode.new("084: PCM Audio",
+                  "Generating PCM Audio and making some noise",
+                  "084_PCM_Audio_Screenshot",
+                  "/episodes/084_pcm_audio.html",
+                  false,
+                  307)
     ]
   end
 end
