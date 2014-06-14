@@ -622,7 +622,13 @@ helpers do
                   "084_PCM_Audio_Screenshot",
                   "/episodes/084_pcm_audio.html",
                   false,
-                  307)
+                  307),
+      Episode.new("085: Apex",
+                  "Awesome Print for Elixir.  An easy way to get insight into unfamiliar data structures.",
+                  "085_Apex_Screenshot",
+                  "/episodes/085_apex.html",
+                  false,
+                  110)
     ]
   end
 end
