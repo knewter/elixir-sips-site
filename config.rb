@@ -628,7 +628,13 @@ helpers do
                   "085_Apex_Screenshot",
                   "/episodes/085_apex.html",
                   false,
-                  110)
+                  110),
+      Episode.new("086: put_in and get_in",
+                  "(and friends) Easy access to deeply nested data structures.",
+                  "086_put_in_and_get_in_Screenshot",
+                  "/episodes/086_put_in_and_get_in.html",
+                  false,
+                  412)
     ]
   end
 end
