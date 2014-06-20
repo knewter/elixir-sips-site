@@ -621,7 +621,7 @@ helpers do
                   "Generating PCM Audio and making some noise",
                   "084_PCM_Audio_Screenshot",
                   "/episodes/084_pcm_audio.html",
-                  false,
+                  true,
                   307),
       Episode.new("085: Apex",
                   "Awesome Print for Elixir.  An easy way to get insight into unfamiliar data structures.",
