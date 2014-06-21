@@ -634,7 +634,13 @@ helpers do
                   "086_put_in_and_get_in_Screenshot",
                   "/episodes/086_put_in_and_get_in.html",
                   false,
-                  412)
+                  412),
+      Episode.new("087: WordCloud",
+                  "Using Elixir to do a word frequency count on a corpus of text and generate input for a WordCloud generator.",
+                  "087_WordCloud_Screenshot",
+                  "/episodes/087_word_cloud.html",
+                  false,
+                  656)
     ]
   end
 end
