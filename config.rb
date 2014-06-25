@@ -640,7 +640,13 @@ helpers do
                   "087_WordCloud_Screenshot",
                   "/episodes/087_word_cloud.html",
                   false,
-                  656)
+                  656),
+      Episode.new("088: Porcelain",
+                  "External Process interaction like the Port module but both simpler and more powerful.",
+                  "088_Porcelain_Screenshot",
+                  "/episodes/088_porcelain.html",
+                  false,
+                  603)
     ]
   end
 end
