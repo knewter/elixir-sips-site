@@ -646,7 +646,13 @@ helpers do
                   "088_Porcelain_Screenshot",
                   "/episodes/088_porcelain.html",
                   false,
-                  603)
+                  603),
+      Episode.new("089: Protocol Buffers",
+                  "Easy cross-language serialization and deserialization of data structures using Google's Protocol Buffers and exprotobuf.",
+                  "089_Protocol_Buffers_Screenshot",
+                  "/episodes/089_protocol_buffers.html",
+                  false,
+                  240)
     ]
   end
 end
