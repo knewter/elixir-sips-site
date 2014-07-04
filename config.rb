@@ -652,7 +652,13 @@ helpers do
                   "089_Protocol_Buffers_Screenshot",
                   "/episodes/089_protocol_buffers.html",
                   false,
-                  240)
+                  240),
+      Episode.new("090: Websockets Terminal",
+                  "Taking advantage of Phoenix's native websockets support to build an in-browser bash terminal proxy.",
+                  "090_Websockets_Terminal_Screenshot",
+                  "/episodes/090_websockets_terminal.html",
+                  false,
+                  780)
     ]
   end
 end
