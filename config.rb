@@ -658,7 +658,13 @@ helpers do
                   "090_Websockets_Terminal_Screenshot",
                   "/episodes/090_websockets_terminal.html",
                   false,
-                  780)
+                  780),
+      Episode.new("091: Test Coverage",
+                  "Exploring test coverage report generation, using both Erlang's `cover` application and the Coverex tool.",
+                  "091_Test_Coverage_Screenshot",
+                  "/episodes/091_test_coverage.html",
+                  false,
+                  155)
     ]
   end
 end
