@@ -664,7 +664,13 @@ helpers do
                   "091_Test_Coverage_Screenshot",
                   "/episodes/091_test_coverage.html",
                   false,
-                  155)
+                  155),
+      Episode.new("092: Link Extractor",
+                  "Using poolboy to build a service for extracting data from a set of links and collecting them into memory for viewing later.",
+                  "092_Link_Extractor_Screenshot",
+                  "/episodes/092_link_extractor.html",
+                  false,
+                  836)
     ]
   end
 end
