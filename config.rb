@@ -670,7 +670,13 @@ helpers do
                   "092_Link_Extractor_Screenshot",
                   "/episodes/092_link_extractor.html",
                   false,
-                  836)
+                  836),
+      Episode.new("093: Link Extractor, Part 2",
+                  "Using Phoenix to build an HTTP API for posting links into the system, and a page to view posted links.",
+                  "093_Link_Extractor_Part_2_Screenshot",
+                  "/episodes/093_link_extractor_part_2.html",
+                  false,
+                  557)
     ]
   end
 end
