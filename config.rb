@@ -676,7 +676,13 @@ helpers do
                   "093_Link_Extractor_Part_2_Screenshot",
                   "/episodes/093_link_extractor_part_2.html",
                   false,
-                  557)
+                  557),
+      Episode.new("094: Link Extractor, Part 3",
+                  "Deploying our application to a VPS from scratch and pushing in our first message.",
+                  "094_Link_Extractor_Part_3_Screenshot",
+                  "/episodes/094_link_extractor_part_3.html",
+                  false,
+                  398)
     ]
   end
 end
