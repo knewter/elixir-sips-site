@@ -682,7 +682,13 @@ helpers do
                   "094_Link_Extractor_Part_3_Screenshot",
                   "/episodes/094_link_extractor_part_3.html",
                   false,
-                  398)
+                  398),
+      Episode.new("095: Link Extractor, Part 4",
+                  "Fixing some bugs and setting up a Zapier integration.",
+                  "095_Link_Extractor_Part_4_Screenshot",
+                  "/episodes/095_link_extractor_part_4.html",
+                  false,
+                  799)
     ]
   end
 end
