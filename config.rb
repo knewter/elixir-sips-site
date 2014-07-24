@@ -688,7 +688,13 @@ helpers do
                   "095_Link_Extractor_Part_4_Screenshot",
                   "/episodes/095_link_extractor_part_4.html",
                   false,
-                  799)
+                  799),
+      Episode.new("096: Arduino Motor Driver",
+                  "An unusually formatted episode discussing an ad hoc serial protocol for controlling an Arduino Motor Controller.",
+                  "096_Arduino_Motor_Driver_Screenshot",
+                  "/episodes/096_arduino_motor_driver.html",
+                  false,
+                  362)
     ]
   end
 end
