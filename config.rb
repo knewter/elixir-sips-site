@@ -694,7 +694,13 @@ helpers do
                   "096_Arduino_Motor_Driver_Screenshot",
                   "/episodes/096_arduino_motor_driver.html",
                   false,
-                  362)
+                  362),
+      Episode.new("097: BEAM Toolbox, Part 6",
+                  "Resurrecting the Toolbox with an Ecto-based data layer from scratch, and synchronizing data with the Hex API.",
+                  "097_BEAM_Toolbox_Part_6_Screenshot",
+                  "/episodes/097_beam_toolbox_part_6.html",
+                  false,
+                  382)
     ]
   end
 end
