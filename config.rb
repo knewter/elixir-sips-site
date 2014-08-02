@@ -700,7 +700,13 @@ helpers do
                   "097_BEAM_Toolbox_Part_6_Screenshot",
                   "/episodes/097_beam_toolbox_part_6.html",
                   false,
-                  382)
+                  382),
+      Episode.new("098: Contributing to Open Source",
+                  "In which we contribute to the elixir codebase and open a pull request.",
+                  "098_Contributing_to_Open_Source_Screenshot",
+                  "/episodes/098_contributing_to_open_source.html",
+                  false,
+                  994)
     ]
   end
 end
