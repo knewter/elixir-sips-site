@@ -706,7 +706,13 @@ helpers do
                   "098_Contributing_to_Open_Source_Screenshot",
                   "/episodes/098_contributing_to_open_source.html",
                   false,
-                  994)
+                  994),
+      Episode.new("099: BEAM Toolbox, Part 7",
+                  "Managing relationships in Ecto, and integrating Ecto into a Phoenix application.",
+                  "099_BEAM_Toolbox_Part_7_Screenshot",
+                  "/episodes/099_beam_toolbox_part_7.html",
+                  false,
+                  524)
     ]
   end
 end
