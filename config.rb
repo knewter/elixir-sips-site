@@ -712,7 +712,13 @@ helpers do
                   "099_BEAM_Toolbox_Part_7_Screenshot",
                   "/episodes/099_beam_toolbox_part_7.html",
                   false,
-                  524)
+                  524),
+      Episode.new("100: BEAM Toolbox, Part 8",
+                  "Making the BEAM Toolbox a bit more useful, including adding in Disqus support.",
+                  "100_BEAM_Toolbox_Part_8_Screenshot",
+                  "/episodes/100_beam_toolbox_part_8.html",
+                  false,
+                  587)
     ]
   end
 end
