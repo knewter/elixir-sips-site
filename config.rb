@@ -718,7 +718,13 @@ helpers do
                   "100_BEAM_Toolbox_Part_8_Screenshot",
                   "/episodes/100_beam_toolbox_part_8.html",
                   false,
-                  587)
+                  587),
+      Episode.new("101: BEAM Toolbox, Part 9",
+                  "Building a CLI utility for categorizing our projects as a Mix task.",
+                  "101_BEAM_Toolbox_Part_9_Screenshot",
+                  "/episodes/101_beam_toolbox_part_9.html",
+                  false,
+                  743)
     ]
   end
 end
