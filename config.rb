@@ -736,7 +736,13 @@ helpers do
                   "103_BEAM_Toolbox_Part_11_Screenshot",
                   "/episodes/103_beam_toolbox_part_11.html",
                   false,
-                  260)
+                  260),
+      Episode.new("104: Ruby to Elixir via BERT-RPC",
+                  "Trivial interop between Ruby and Elixir processes using BERT-RPC.",
+                  "104_Ruby_to_Elixir_Via_BERTRPC_Screenshot",
+                  "/episodes/104_ruby_to_elixir_via_bertrpc.html",
+                  false,
+                  246)
     ]
   end
 end
