@@ -730,7 +730,13 @@ helpers do
                   "102_BEAM_Toolbox_Part_10_Screenshot",
                   "/episodes/102_beam_toolbox_part_10.html",
                   false,
-                  357)
+                  357),
+      Episode.new("103: BEAM Toolbox, Part 11",
+                  "Switching to the expression style in Ecto, and using Phoenix's new routing helpers because we must.",
+                  "103_BEAM_Toolbox_Part_11_Screenshot",
+                  "/episodes/103_beam_toolbox_part_11.html",
+                  false,
+                  260)
     ]
   end
 end
