@@ -724,7 +724,13 @@ helpers do
                   "101_BEAM_Toolbox_Part_9_Screenshot",
                   "/episodes/101_beam_toolbox_part_9.html",
                   false,
-                  743)
+                  743),
+      Episode.new("102: BEAM Toolbox, Part 10",
+                  "Building a projects listing page, and reviewing some changes to the toolbox.",
+                  "102_BEAM_Toolbox_Part_10_Screenshot",
+                  "/episodes/102_beam_toolbox_part_10.html",
+                  false,
+                  357)
     ]
   end
 end
