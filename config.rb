@@ -742,7 +742,13 @@ helpers do
                   "104_Ruby_to_Elixir_Via_BERTRPC_Screenshot",
                   "/episodes/104_ruby_to_elixir_via_bertrpc.html",
                   false,
-                  246)
+                  246),
+      Episode.new("105: Farkov Chain",
+                  "Generating killer marketing strategies with Elixir",
+                  "105_Farkov_Chain_Screenshot",
+                  "/episodes/105_farkov_chain.html",
+                  false,
+                  753)
     ]
   end
 end
