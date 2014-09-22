@@ -748,7 +748,13 @@ helpers do
                   "105_Farkov_Chain_Screenshot",
                   "/episodes/105_farkov_chain.html",
                   false,
-                  753)
+                  753),
+      Episode.new("106: Text Parsing",
+                  "Building a parser for a custom text format.",
+                  "106_Text_Parsing_Screenshot",
+                  "/episodes/106_text_parsing.html",
+                  false,
+                  855)
     ]
   end
 end
