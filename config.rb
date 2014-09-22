@@ -760,7 +760,13 @@ helpers do
                   "107_Phoenix_Release_Screenshot",
                   "/episodes/107_phoenix_release.html",
                   false,
-                  236)
+                  236),
+      Episode.new("108: Release Upgrades",
+                  "Upgrading a running app to a new version without losing state.",
+                  "108_Release_Upgrades_Screenshot",
+                  "/episodes/108_release_upgrades.html",
+                  false,
+                  293)
     ]
   end
 end
