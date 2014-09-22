@@ -754,7 +754,13 @@ helpers do
                   "106_Text_Parsing_Screenshot",
                   "/episodes/106_text_parsing.html",
                   false,
-                  855)
+                  855),
+      Episode.new("107: Phoenix Release",
+                  "Using `exrm` to build a release of the BEAM Toolbox webapp, for deployment.",
+                  "107_Phoenix_Release_Screenshot",
+                  "/episodes/107_phoenix_release.html",
+                  false,
+                  236)
     ]
   end
 end
