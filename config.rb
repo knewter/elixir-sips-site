@@ -766,7 +766,13 @@ helpers do
                   "108_Release_Upgrades_Screenshot",
                   "/episodes/108_release_upgrades.html",
                   false,
-                  293)
+                  293),
+      Episode.new("109: Socket",
+                  "A pleasant abstraction around `gen_tcp`, `gen_udp`, `gen_sctp`, and `ssl`.",
+                  "109_Socket_Screenshot",
+                  "/episodes/109_socket.html",
+                  false,
+                  366)
     ]
   end
 end
