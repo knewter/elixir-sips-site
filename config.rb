@@ -778,7 +778,13 @@ helpers do
                   "110_ExTwitter_Screenshot",
                   "/episodes/110_ex_twitter.html",
                   false,
-                  180)
+                  180),
+      Episode.new("111: ExTwitter, Part 2",
+                  "Streaming a Twitter search to the browser, because Phoenix Channels are meant to be paired with Elixir Streams, I promise.",
+                  "111_ExTwitter_Part_2_Screenshot",
+                  "/episodes/111_ex_twitter_part_2.html",
+                  false,
+                  296)
     ]
   end
 end
