@@ -772,7 +772,13 @@ helpers do
                   "109_Socket_Screenshot",
                   "/episodes/109_socket.html",
                   false,
-                  366)
+                  366),
+      Episode.new("110: ExTwitter",
+                  "A library for interacting with the Twitter API, using standard requests or the streaming responses.",
+                  "110_ExTwitter_Screenshot",
+                  "/episodes/110_ex_twitter.html",
+                  false,
+                  180)
     ]
   end
 end
