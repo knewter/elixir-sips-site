@@ -784,7 +784,13 @@ helpers do
                   "111_ExTwitter_Part_2_Screenshot",
                   "/episodes/111_ex_twitter_part_2.html",
                   false,
-                  296)
+                  296),
+      Episode.new("112: Benchfella",
+                  "A pleasant-to-use benchmarking tool that includes graph output.",
+                  "112_Benchfella_Screenshot",
+                  "/episodes/112_benchfella.html",
+                  false,
+                  287)
     ]
   end
 end
