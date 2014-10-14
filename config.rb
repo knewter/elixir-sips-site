@@ -790,7 +790,13 @@ helpers do
                   "112_Benchfella_Screenshot",
                   "/episodes/112_benchfella.html",
                   false,
-                  287)
+                  287),
+      Episode.new("113: Monitoring Network Traffic",
+                  "Using libpcap from Elixir to see the stream of data passing across your computer's network interface.",
+                  "113_Monitoring_Network_Traffic_Screenshot",
+                  "/episodes/113_monitoring_network_traffic.html",
+                  false,
+                  275)
     ]
   end
 end
