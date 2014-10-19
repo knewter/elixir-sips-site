@@ -796,7 +796,13 @@ helpers do
                   "113_Monitoring_Network_Traffic_Screenshot",
                   "/episodes/113_monitoring_network_traffic.html",
                   false,
-                  275)
+                  275),
+      Episode.new("114: Wx Keyboard Events",
+                  "Handling keyboard input in a wx application.",
+                  "114_Wx_Keyboard_Events_Screenshot",
+                  "/episodes/114_wx_keyboard_events.html",
+                  false,
+                  329)
     ]
   end
 end
