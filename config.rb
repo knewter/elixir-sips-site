@@ -802,7 +802,13 @@ helpers do
                   "114_Wx_Keyboard_Events_Screenshot",
                   "/episodes/114_wx_keyboard_events.html",
                   false,
-                  329)
+                  329),
+      Episode.new("115: Wx Extris Continued",
+                  "Making pieces fall and drawing the game board.",
+                  "115_Wx_Extris_Continued_Screenshot",
+                  "/episodes/115_wx_extris_continued.html",
+                  false,
+                  349)
     ]
   end
 end
