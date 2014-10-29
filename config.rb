@@ -808,7 +808,13 @@ helpers do
                   "115_Wx_Extris_Continued_Screenshot",
                   "/episodes/115_wx_extris_continued.html",
                   false,
-                  349)
+                  349),
+      Episode.new("116: Wx Extris Part 3 - Refactoring",
+                  "Turning a gigantic module into something a little more sensible and well-factored.",
+                  "116_Wx_Extris_Part_3_Refactoring_Screenshot",
+                  "/episodes/116_wx_extris_part_3_refactoring.html",
+                  false,
+                  470)
     ]
   end
 end
