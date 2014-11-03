@@ -820,7 +820,13 @@ helpers do
                   "117_Wx_Extris_Part_4_Testing_Screenshot",
                   "/episodes/117_wx_extris_part_4_testing.html",
                   false,
-                  684)
+                  684),
+      Episode.new("118: Wx Extris Part 5",
+                  "Defining the bottom game board boundary and providing the next shape when needed.",
+                  "118_Wx_Extris_Part_5_Screenshot",
+                  "/episodes/118_wx_extris_part_5.html",
+                  false,
+                  345)
     ]
   end
 end
