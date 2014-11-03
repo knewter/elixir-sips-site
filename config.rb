@@ -814,7 +814,13 @@ helpers do
                   "116_Wx_Extris_Part_3_Refactoring_Screenshot",
                   "/episodes/116_wx_extris_part_3_refactoring.html",
                   false,
-                  470)
+                  470),
+      Episode.new("117: Wx Extris Part 4 - Testing",
+                  "Writing some tests and implementing board boundary collision.",
+                  "117_Wx_Extris_Part_4_Testing_Screenshot",
+                  "/episodes/117_wx_extris_part_4_testing.html",
+                  false,
+                  684)
     ]
   end
 end
