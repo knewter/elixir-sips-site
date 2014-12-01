@@ -844,7 +844,13 @@ helpers do
                   "121_Wx_Extris_Part_8_Screenshot",
                   "/episodes/121_wx_extris_part_8.html",
                   false,
-                  413)
+                  413),
+      Episode.new("122: SDL",
+                  "Using the SDL library for graphics from your Elixir programs.",
+                  "122_SDL_Screenshot",
+                  "/episodes/122_sdl.html",
+                  false,
+                  351)
     ]
   end
 end
