@@ -850,7 +850,13 @@ helpers do
                   "122_SDL_Screenshot",
                   "/episodes/122_sdl.html",
                   false,
-                  351)
+                  351),
+      Episode.new("123: SDL Extris",
+                  "Writing a renderer for the Tetris clone using SDL.",
+                  "123_SDL_Extris_Screenshot",
+                  "/episodes/123_sdl_extris.html",
+                  false,
+                  1139)
     ]
   end
 end
