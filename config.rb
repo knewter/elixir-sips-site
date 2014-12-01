@@ -856,7 +856,13 @@ helpers do
                   "123_SDL_Extris_Screenshot",
                   "/episodes/123_sdl_extris.html",
                   false,
-                  1139)
+                  1139),
+      Episode.new("124: Typespecs",
+                  "Layering type information over your functions to aid users and static analysis tools, and to catch errors.",
+                  "124_Typespecs_Screenshot",
+                  "/episodes/124_typespecs.html",
+                  false,
+                  226)
     ]
   end
 end
