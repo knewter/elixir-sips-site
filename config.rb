@@ -832,7 +832,13 @@ helpers do
                   "119_Wx_Extris_Part_6_Screenshot",
                   "/episodes/119_wx_extris_part_6.html",
                   false,
-                  726)
+                  726),
+      Episode.new("120: Wx Extris Part 7",
+                  "Introducing collision detenction and cleaning up the renderer / game board data structure.",
+                  "120_Wx_Extris_Part_7_Screenshot",
+                  "/episodes/120_wx_extris_part_7.html",
+                  false,
+                  2117)
     ]
   end
 end
