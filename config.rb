@@ -838,7 +838,13 @@ helpers do
                   "120_Wx_Extris_Part_7_Screenshot",
                   "/episodes/120_wx_extris_part_7.html",
                   false,
-                  2117)
+                  2117),
+      Episode.new("121: Wx Extris Part 8",
+                  "Test-driven implementation of clearing full lines off of the board.",
+                  "121_Wx_Extris_Part_8_Screenshot",
+                  "/episodes/121_wx_extris_part_8.html",
+                  false,
+                  413)
     ]
   end
 end
