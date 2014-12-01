@@ -826,7 +826,13 @@ helpers do
                   "118_Wx_Extris_Part_5_Screenshot",
                   "/episodes/118_wx_extris_part_5.html",
                   false,
-                  345)
+                  345),
+      Episode.new("119: Wx Extris Part 6",
+                  "Introducing multiple processes into the game, and running the render loop separately from the game logic.",
+                  "119_Wx_Extris_Part_6_Screenshot",
+                  "/episodes/119_wx_extris_part_6.html",
+                  false,
+                  726)
     ]
   end
 end
