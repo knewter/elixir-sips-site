@@ -862,7 +862,13 @@ helpers do
                   "124_Typespecs_Screenshot",
                   "/episodes/124_typespecs.html",
                   false,
-                  226)
+                  226),
+      Episode.new("125: Dialyzer",
+                  "Letting the computer (rather than logs or users) tell you when you've written crap code.",
+                  "125_Dialyzer_Screenshot",
+                  "/episodes/125_dialyzer.html",
+                  false,
+                  289)
     ]
   end
 end
