@@ -868,7 +868,13 @@ helpers do
                   "125_Dialyzer_Screenshot",
                   "/episodes/125_dialyzer.html",
                   false,
-                  289)
+                  289),
+      Episode.new("126: Piping Into Elixir",
+                  "Handling typical unix-script style stdin and stdout pipes trivially from your Elixir scripts.",
+                  "126_Piping_Into_Elixir_Screenshot",
+                  "/episodes/126_piping_into_elixir.html",
+                  false,
+                  96)
     ]
   end
 end
