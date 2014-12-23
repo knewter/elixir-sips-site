@@ -874,7 +874,13 @@ helpers do
                   "126_Piping_Into_Elixir_Screenshot",
                   "/episodes/126_piping_into_elixir.html",
                   false,
-                  96)
+                  96),
+      Episode.new("127: SSH Client Commands",
+                  "Becoming an SSH client and sending commands to an SSH server with Elixir.",
+                  "127_SSH_Client_Commands_Screenshot",
+                  "/episodes/127_ssh_client_commands.html",
+                  false,
+                  107)
     ]
   end
 end
