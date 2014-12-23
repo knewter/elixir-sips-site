@@ -880,7 +880,13 @@ helpers do
                   "127_SSH_Client_Commands_Screenshot",
                   "/episodes/127_ssh_client_commands.html",
                   false,
-                  107)
+                  107),
+      Episode.new("128: Managing Docker",
+                  "Programmatically interacting with Docker using Elixir and erldocker.",
+                  "128_Managing_Docker_Screenshot",
+                  "/episodes/128_managing_docker.html",
+                  false,
+                  182)
     ]
   end
 end
