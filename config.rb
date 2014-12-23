@@ -886,7 +886,13 @@ helpers do
                   "128_Managing_Docker_Screenshot",
                   "/episodes/128_managing_docker.html",
                   false,
-                  182)
+                  182),
+      Episode.new("129: egd",
+                  "A module in the Erlang Standard Library meant for doing basic graphics.",
+                  "129_egd_Screenshot",
+                  "/episodes/129_egd.html",
+                  false,
+                  121)
     ]
   end
 end
