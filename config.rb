@@ -892,7 +892,13 @@ helpers do
                   "129_egd_Screenshot",
                   "/episodes/129_egd.html",
                   false,
-                  121)
+                  121),
+      Episode.new("130: Extris Web Client",
+                  "Using Phoenix's websockets to build a JavaScript canvas-based renderer and interaction module for Extris games running in processes on the server.",
+                  "130_Extris_Web_Client_Screenshot",
+                  "/episodes/130_extris_web_client.html",
+                  false,
+                  774)
     ]
   end
 end
