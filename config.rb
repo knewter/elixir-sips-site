@@ -898,7 +898,13 @@ helpers do
                   "130_Extris_Web_Client_Screenshot",
                   "/episodes/130_extris_web_client.html",
                   false,
-                  774)
+                  774),
+      Episode.new("131: ExProf",
+                  "An Elixir profiler, useful for finding where your program is spending its time.",
+                  "131_ExProf_Screenshot",
+                  "/episodes/131_exprof.html",
+                  false,
+                  223)
     ]
   end
 end
