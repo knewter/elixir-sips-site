@@ -910,7 +910,13 @@ helpers do
                   "132_Randomness_in_the_Erlang_VM_Screenshot",
                   "/episodes/132_randomness_in_the_erlang_vm.html",
                   false,
-                  245)
+                  245),
+      Episode.new("133: Boltun - Postgres Listen+Notify",
+                  "An Elixir package providing fantastically simple support for Postgres's built-in pubsub notifications.",
+                  "133_Boltun_Postgres_Listen_Notify_Screenshot",
+                  "/episodes/133_boltun_postgres_listen_notify.html",
+                  false,
+                  370)
     ]
   end
 end
