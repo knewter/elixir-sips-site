@@ -904,7 +904,13 @@ helpers do
                   "131_ExProf_Screenshot",
                   "/episodes/131_exprof.html",
                   false,
-                  223)
+                  223),
+      Episode.new("132: Randomness in the Erlang VM",
+                  "An exploration of where our randomness in Tetris went so horribly wrong, along with an exposition of how to think about which process your code is running in, and why that's important.",
+                  "132_Randomness_in_the_Erlang_VM_Screenshot",
+                  "/episodes/132_randomness_in_the_erlang_vm.html",
+                  false,
+                  245)
     ]
   end
 end
