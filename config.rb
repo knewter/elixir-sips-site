@@ -982,7 +982,13 @@ helpers do
                   "144_erlangs_calendar_module_Screenshot",
                   "/episodes/144_erlangs_calendar_module.html",
                   false,
-                  188)
+                  188),
+      Episode.new("145: good_times",
+                  "An elixir library for trivially specifying relative dates and times.",
+                  "145_good_times_Screenshot",
+                  "/episodes/145_good_times.html",
+                  false,
+                  192)
     ]
   end
 end
