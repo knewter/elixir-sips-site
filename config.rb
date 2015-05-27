@@ -934,7 +934,13 @@ helpers do
                   "136_Interfacing_with_Asterisk_Screenshot",
                   "/episodes/136_interfacing_with_asterisk.html",
                   false,
-                  365)
+                  365),
+      Episode.new("137: Asterisk AGI with Elixir",
+                  "Building out an erlagi handler module in Elixir that interacts with a remote HTTP API.",
+                  "137_Asterisk_AGI_with_Elixir_Screenshot",
+                  "/episodes/137_asterisk_agi_with_elixir.html",
+                  false,
+                  230)
     ]
   end
 end
