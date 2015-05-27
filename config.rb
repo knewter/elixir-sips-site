@@ -1036,7 +1036,13 @@ helpers do
                   "153_Phoenix_APIs_and_CORS_Screenshot",
                   "/episodes/153_phoenix_apis_and_cors.html",
                   false,
-                  465)
+                  465),
+      Episode.new("154: inet",
+                  "Basic TCP/IP interactions built into Erlang's kernel application for you.",
+                  "154_inet_Screenshot",
+                  "/episodes/154_inet.html",
+                  false,
+                  149)
     ]
   end
 end
