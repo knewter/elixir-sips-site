@@ -958,7 +958,13 @@ helpers do
                   "140_gopher_Screenshot",
                   "/episodes/140_gopher.html",
                   false,
-                  467)
+                  467),
+      Episode.new("141: Set",
+                  "Elixir ships with a Set behaviour, and a default HashSet implementation.",
+                  "141_Set_Screenshot",
+                  "/episodes/141_set.html",
+                  false,
+                  114)
     ]
   end
 end
