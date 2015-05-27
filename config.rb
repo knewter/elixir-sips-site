@@ -964,7 +964,13 @@ helpers do
                   "141_Set_Screenshot",
                   "/episodes/141_set.html",
                   false,
-                  114)
+                  114),
+      Episode.new("142: escript",
+                  "Building quick 'binaries' after a fashion using Elixir's tooling.",
+                  "142_escript_Screenshot",
+                  "/episodes/142_escript.html",
+                  false,
+                  178)
     ]
   end
 end
