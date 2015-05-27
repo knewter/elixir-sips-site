@@ -922,7 +922,13 @@ helpers do
                   "134_Elastic_Search_with_Tirexs_Screenshot",
                   "/episodes/134_elastic_search_with_tirexs.html",
                   false,
-                  449)
+                  449),
+      Episode.new("135: Benchwarmer",
+                  "Another benchmarking tool, with a little bit less setup required.",
+                  "135_Benchwarmer_Screenshot",
+                  "/episodes/135_benchwarmer.html",
+                  false,
+                  113)
     ]
   end
 end
