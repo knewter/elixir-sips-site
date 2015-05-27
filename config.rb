@@ -1072,7 +1072,13 @@ helpers do
                   "159_Simple_One_for_One_Supervisors_Screenshot",
                   "/episodes/159_simple_one_for_one_supervisors.html",
                   false,
-                  458)
+                  458),
+      Episode.new("160: MultiDef",
+                  "A less-verbose way to define multiple function clauses, courtesy of Dave Thomas.",
+                  "160_MultiDef_Screenshot",
+                  "/episodes/160_multidef.html",
+                  false,
+                  108)
     ]
   end
 end
