@@ -994,7 +994,13 @@ helpers do
                   "146_mailman_Screenshot",
                   "/episodes/146_mailman.html",
                   false,
-                  290)
+                  290),
+      Episode.new("147: webassembly",
+                  "Generate markup from blocks of elixir code, in the style of _why the lucky stiff's markaby.",
+                  "147_webassembly_Screenshot",
+                  "/episodes/147_webassembly.html",
+                  false,
+                  216)
     ]
   end
 end
