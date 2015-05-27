@@ -1000,7 +1000,13 @@ helpers do
                   "147_webassembly_Screenshot",
                   "/episodes/147_webassembly.html",
                   false,
-                  216)
+                  216),
+      Episode.new("148: ejabberd with Elixir",
+                  "Getting started interacting with a battle-hardened XMPP chat server by writing Elixir modules for it.",
+                  "148_ejabberd_with_elixir_Screenshot",
+                  "/episodes/148_ejabberd_with_elixir.html",
+                  false,
+                  381)
     ]
   end
 end
