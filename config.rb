@@ -970,7 +970,13 @@ helpers do
                   "142_escript_Screenshot",
                   "/episodes/142_escript.html",
                   false,
-                  178)
+                  178),
+      Episode.new("143: phoenix_generator",
+                  "A project that adds code generation to Phoenix for building models, controllers, templates, and channels.",
+                  "143_phoenix_generator_Screenshot",
+                  "/episodes/143_phoenix_generator.html",
+                  false,
+                  385)
     ]
   end
 end
