@@ -952,7 +952,13 @@ helpers do
                   "139_hexdocs_Screenshot",
                   "/episodes/139_hexdocs.html",
                   false,
-                  152)
+                  152),
+      Episode.new("140: gopher",
+                  "Using `goma`, which is essentially WebMachine for The Internet Gopher Protocol, to build an elixir-powered gopher server.",
+                  "140_gopher_Screenshot",
+                  "/episodes/140_gopher.html",
+                  false,
+                  467)
     ]
   end
 end
