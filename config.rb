@@ -1060,7 +1060,13 @@ helpers do
                   "157_Playing_with_the_Code_Module_Part_1_Screenshot",
                   "/episodes/157_playing_with_the_code_module_part_1.html",
                   false,
-                  186)
+                  186),
+      Episode.new("158: SOAP with Detergentex",
+                  "Using the `detergentex` library, which wraps the erlang `detergent` library, to interact with SOAP services in Elixir.",
+                  "158_SOAP_with_Detergentex_Screenshot",
+                  "/episodes/158_soap_with_detergentex.html",
+                  false,
+                  197)
     ]
   end
 end
