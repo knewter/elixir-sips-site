@@ -1055,7 +1055,7 @@ helpers do
                   "/episodes/156_interacting_with_amazon_apis_with_erlcloud.html",
                   false,
                   128),
-      Episode.new("157: Playing with the Code Module Part 1 - eval_string",
+      Episode.new("157: Playing with the Code Module, Part 1 - eval_string",
                   "Exploring the standard library's Code module's `eval_string` function for fun and whatnot.",
                   "157_Playing_with_the_Code_Module_Part_1_Screenshot",
                   "/episodes/157_playing_with_the_code_module_part_1.html",
@@ -1078,7 +1078,13 @@ helpers do
                   "160_MultiDef_Screenshot",
                   "/episodes/160_multidef.html",
                   false,
-                  108)
+                  108),
+      Episode.new("161: Building a Cron System, Part 1",
+                  "Building a parser for cron-style job definitions.",
+                  "161_Building_a_Cron_System_Part_1_Screenshot",
+                  "/episodes/161_building_a_cron_system_part_1.html",
+                  false,
+                  754)
     ]
   end
 end
