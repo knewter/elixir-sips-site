@@ -1018,7 +1018,13 @@ helpers do
                   "150_JInterface_Screenshot",
                   "/episodes/150_jinterface.html",
                   false,
-                  623)
+                  623),
+      Episode.new("151: System Information",
+                  "Exploring a running Erlang system using tools from the shell.",
+                  "151_system_information_Screenshot",
+                  "/episodes/151_system_information.html",
+                  false,
+                  379)
     ]
   end
 end
