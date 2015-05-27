@@ -916,7 +916,13 @@ helpers do
                   "133_Boltun_Postgres_Listen_Notify_Screenshot",
                   "/episodes/133_boltun_postgres_listen_notify.html",
                   false,
-                  370)
+                  370),
+      Episode.new("134: Elastic Search with Tirexs",
+                  "An easy way to interact with ElasticSearch.",
+                  "134_Elastic_Search_with_Tirexs_Screenshot",
+                  "/episodes/134_elastic_search_with_tirexs.html",
+                  false,
+                  449)
     ]
   end
 end
