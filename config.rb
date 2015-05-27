@@ -976,7 +976,13 @@ helpers do
                   "143_phoenix_generator_Screenshot",
                   "/episodes/143_phoenix_generator.html",
                   false,
-                  385)
+                  385),
+      Episode.new("144: Erlang's `calendar` module",
+                  "Interacting with Erlang's native date and time types.",
+                  "144_erlangs_calendar_module_Screenshot",
+                  "/episodes/144_erlangs_calendar_module.html",
+                  false,
+                  188)
     ]
   end
 end
