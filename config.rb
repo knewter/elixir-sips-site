@@ -988,7 +988,13 @@ helpers do
                   "145_good_times_Screenshot",
                   "/episodes/145_good_times.html",
                   false,
-                  192)
+                  192),
+      Episode.new("146: mailman",
+                  "Easily send emails, parse emails, and verify email related features in your tests using this One Neat Trick.",
+                  "146_mailman_Screenshot",
+                  "/episodes/146_mailman.html",
+                  false,
+                  290)
     ]
   end
 end
