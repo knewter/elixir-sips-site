@@ -1024,7 +1024,13 @@ helpers do
                   "151_system_information_Screenshot",
                   "/episodes/151_system_information.html",
                   false,
-                  379)
+                  379),
+      Episode.new("152: erlang_js",
+                  "Evaluating javascript on a SpiderMonkey interpreter and getting back Erlang terms.",
+                  "152_erlang_js_Screenshot",
+                  "/episodes/152_erlang_js.html",
+                  false,
+                  210)
     ]
   end
 end
