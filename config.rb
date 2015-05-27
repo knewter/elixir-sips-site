@@ -928,7 +928,13 @@ helpers do
                   "135_Benchwarmer_Screenshot",
                   "/episodes/135_benchwarmer.html",
                   false,
-                  113)
+                  113),
+      Episode.new("136: Interfacing with Asterisk",
+                  "Using the `erlagi` application from Elixir to control the logic of an extension in a PBX system via Asterisk's AGI protocol.",
+                  "136_Interfacing_with_Asterisk_Screenshot",
+                  "/episodes/136_interfacing_with_asterisk.html",
+                  false,
+                  365)
     ]
   end
 end
