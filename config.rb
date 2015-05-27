@@ -940,7 +940,13 @@ helpers do
                   "137_Asterisk_AGI_with_Elixir_Screenshot",
                   "/episodes/137_asterisk_agi_with_elixir.html",
                   false,
-                  230)
+                  230),
+      Episode.new("138: Monitors and Links",
+                  "Two of the core building blocks that the Erlang VM provides.  I'd neglected discussing them until now.  Oops.",
+                  "138_Monitors_and_Links_Screenshot",
+                  "/episodes/138_monitors_and_links.html",
+                  false,
+                  260)
     ]
   end
 end
