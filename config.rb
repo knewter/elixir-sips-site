@@ -1090,7 +1090,13 @@ helpers do
                   "162_Building_a_Cron_System_Part_2_Screenshot",
                   "/episodes/162_building_a_cron_system_part_2.html",
                   false,
-                  589)
+                  589),
+      Episode.new("163: Building a Cron System, Part 3",
+                  "Executing our jobs on their schedule.  Bonus intro to defdelegate and ExUnit's `@tag`s.",
+                  "163_Building_a_Cron_System_Part_3_Screenshot",
+                  "/episodes/163_building_a_cron_system_part_3.html",
+                  false,
+                  645)
     ]
   end
 end
