@@ -946,7 +946,13 @@ helpers do
                   "138_Monitors_and_Links_Screenshot",
                   "/episodes/138_monitors_and_links.html",
                   false,
-                  260)
+                  260),
+      Episode.new("139: hexdocs",
+                  "Elixir's package manager, hex.pm, also provides a documentation server for elixir packages.  We'll see how to push documentation up.",
+                  "139_hexdocs_Screenshot",
+                  "/episodes/139_hexdocs.html",
+                  false,
+                  152)
     ]
   end
 end
