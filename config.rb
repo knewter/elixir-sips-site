@@ -1066,7 +1066,13 @@ helpers do
                   "158_SOAP_with_Detergentex_Screenshot",
                   "/episodes/158_soap_with_detergentex.html",
                   false,
-                  197)
+                  197),
+      Episode.new("159: Simple One for One Supervisors",
+                  "Getting a dynamically spawned process into a supervision tree to avoid orphaned processes, among other things.",
+                  "159_Simple_One_for_One_Supervisors_Screenshot",
+                  "/episodes/159_simple_one_for_one_supervisors.html",
+                  false,
+                  458)
     ]
   end
 end
