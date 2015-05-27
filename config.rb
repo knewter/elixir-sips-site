@@ -1084,7 +1084,13 @@ helpers do
                   "161_Building_a_Cron_System_Part_1_Screenshot",
                   "/episodes/161_building_a_cron_system_part_1.html",
                   false,
-                  754)
+                  754),
+      Episode.new("162: Building a Cron System, Part 2",
+                  "Determining if a given time is matched by a Schedule.",
+                  "162_Building_a_Cron_System_Part_2_Screenshot",
+                  "/episodes/162_building_a_cron_system_part_2.html",
+                  false,
+                  589)
     ]
   end
 end
