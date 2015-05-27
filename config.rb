@@ -1096,7 +1096,13 @@ helpers do
                   "163_Building_a_Cron_System_Part_3_Screenshot",
                   "/episodes/163_building_a_cron_system_part_3.html",
                   false,
-                  645)
+                  645),
+      Episode.new("164: Fractals",
+                  "Exploring L Systems, on our way to generating fractals.",
+                  "164_Fractals_Screenshot",
+                  "/episodes/164_fractals.html",
+                  false,
+                  648)
     ]
   end
 end
