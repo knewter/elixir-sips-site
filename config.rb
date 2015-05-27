@@ -1030,7 +1030,13 @@ helpers do
                   "152_erlang_js_Screenshot",
                   "/episodes/152_erlang_js.html",
                   false,
-                  210)
+                  210),
+      Episode.new("153: Phoenix APIs and CORS",
+                  "Building a basic API with Phoenix, and allowing remote domains to access it from the browser.",
+                  "153_Phoenix_APIs_and_CORS_Screenshot",
+                  "/episodes/153_phoenix_apis_and_cors.html",
+                  false,
+                  465)
     ]
   end
 end
