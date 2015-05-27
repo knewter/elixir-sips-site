@@ -1006,7 +1006,13 @@ helpers do
                   "148_ejabberd_with_elixir_Screenshot",
                   "/episodes/148_ejabberd_with_elixir.html",
                   false,
-                  381)
+                  381),
+      Episode.new("149: ejabberd Packet Filters",
+                  "Modifying messages inside of our ejabberd server, specifically - making everyone yell at each other.",
+                  "149_ejabberd_packet_filters_Screenshot",
+                  "/episodes/149_ejabberd_packet_filters.html",
+                  false,
+                  504)
     ]
   end
 end
