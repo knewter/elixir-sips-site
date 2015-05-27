@@ -1012,7 +1012,13 @@ helpers do
                   "149_ejabberd_packet_filters_Screenshot",
                   "/episodes/149_ejabberd_packet_filters.html",
                   false,
-                  504)
+                  504),
+      Episode.new("150: JInterface",
+                  "Talking to Elixir from Java",
+                  "150_JInterface_Screenshot",
+                  "/episodes/150_jinterface.html",
+                  false,
+                  623)
     ]
   end
 end
