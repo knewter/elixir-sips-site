@@ -1054,7 +1054,13 @@ helpers do
                   "156_Interacting_with_Amazons_APIs_with_erlcloud_Screenshot",
                   "/episodes/156_interacting_with_amazon_apis_with_erlcloud.html",
                   false,
-                  128)
+                  128),
+      Episode.new("157: Playing with the Code Module Part 1 - eval_string",
+                  "Exploring the standard library's Code module's `eval_string` function for fun and whatnot.",
+                  "157_Playing_with_the_Code_Module_Part_1_Screenshot",
+                  "/episodes/157_playing_with_the_code_module_part_1.html",
+                  false,
+                  186)
     ]
   end
 end
