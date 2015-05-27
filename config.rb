@@ -1048,7 +1048,13 @@ helpers do
                   "155_OAuth2_Code_Spelunking_Screenshot",
                   "/episodes/155_OAuth2_Code_Spelunking.html",
                   false,
-                  263)
+                  263),
+      Episode.new("156: Interacting with Amazon's APIs with erlcloud",
+                  "A comically brief overview of erlcloud and evidence that it does, in fact, work for me.",
+                  "156_Interacting_with_Amazons_APIs_with_erlcloud_Screenshot",
+                  "/episodes/156_interacting_with_amazon_apis_with_erlcloud.html",
+                  false,
+                  128)
     ]
   end
 end
