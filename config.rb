@@ -1042,7 +1042,13 @@ helpers do
                   "154_inet_Screenshot",
                   "/episodes/154_inet.html",
                   false,
-                  149)
+                  149),
+      Episode.new("155: OAuth2 Code Spelunking",
+                  "A dig through Sonny Scroggins' example of integrating a Phoenix application with GitHub via his OAuth2 package.",
+                  "155_OAuth2_Code_Spelunking_Screenshot",
+                  "/episodes/155_OAuth2_Code_Spelunking.html",
+                  false,
+                  263)
     ]
   end
 end
