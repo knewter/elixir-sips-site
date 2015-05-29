@@ -1102,7 +1102,13 @@ helpers do
                   "164_Fractals_Screenshot",
                   "/episodes/164_fractals.html",
                   false,
-                  648)
+                  648),
+      Episode.new("165: Accounting 101",
+                  "Modeling a double-entry ledger. Terribly. And then discussing what went wrong.",
+                  "165_Accounting_101_Screenshot",
+                  "/episodes/165_accounting_101.html",
+                  false,
+                  1345)
     ]
   end
 end
