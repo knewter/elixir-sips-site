@@ -1108,8 +1108,26 @@ helpers do
                   "165_Accounting_101_Screenshot",
                   "/episodes/165_accounting_101.html",
                   false,
-                  1345)
+                  1345),
+      Episode.new("166: Implementing Logo",
+                  "Implementing the Logo graphical programming language in Elixir with wxWidgets.  In this episode we just implement the underlying GenServer.",
+                  "166_Implementing_Logo_Screenshot",
+                  "/episodes/166_implementing_logo.html",
+                  true,
+                  824),
+      Episode.new("167: Implementing Logo, Part 2 (the drawening)",
+                  "Building a renderer for our Logo interpreter.",
+                  "167_Implementing_Logo_Part_2_Screenshot",
+                  "/episodes/167_implementing_logo_part_2.html",
+                  true,
+                  705)
     ]
+  end
+
+  def specials
+    {
+      logo: [episodes[165], episodes[166]]
+    }
   end
 end
 

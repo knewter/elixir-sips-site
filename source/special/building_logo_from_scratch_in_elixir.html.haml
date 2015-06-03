@@ -1,0 +1,33 @@
+---
+title: Building Logo from Scratch in Elixir | Elixir Sips
+---
+
+%h3 Building Logo from Scratch in Elixir
+
+:markdown
+  In ElixirSips episodes 166 and 167, I implemented a
+  [Logo](en.wikipedia.org/wiki/Logo_%28programming_language%29) interpreter from
+  scratch.  It's been a while since my last free episodes, and these 2 go
+  together and are pretty well self-contained, so I'm putting them out as a pair
+  of free episodes and combining them on this page.
+
+
+%p
+  If you like what you see, I'd love it if you subscribed (duh)!
+
+.episodes-list
+  - specials[:logo].each do |episode|
+    .episode-list-item{itemprop: "video", itemscope: true, itemtype: "http://schema.org/VideoObject"}
+      %meta{itemprop: "thumbnail", content: url("images/#{episode.cover_image_url}")}
+      %meta{itemprop: "description", content: episode.synopsis}
+      %meta{itemprop: "duration", content: schema_duration(episode.length)}
+      %meta{itemprop: "name", content: episode.title}
+      %a{ href: episode.url }
+        %h5= episode.title_with_subscriber_tag
+        .episode-list-item-screenshot
+          = image_tag(episode.small_cover_image_url, class: "cover-image", width: 300, height: 169)
+          - if episode.free?
+            = image_tag('play_small.png', class: 'play')
+        %p= episode.synopsis
+
+= partial 'partials/subscribe_button'
