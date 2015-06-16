@@ -1120,7 +1120,13 @@ helpers do
                   "167_Implementing_Logo_Part_2_Screenshot",
                   "/episodes/167_implementing_logo_part_2.html",
                   true,
-                  705)
+                  705),
+      Episode.new("168: Continuous Integration",
+                  "Using Semaphore CI to automatically test a Phoenix application each time we push new code.",
+                  "168_Continuous_Integration_Screenshot",
+                  "/episodes/168_continuous_integration.html",
+                  true,
+                  444)
     ]
   end
 

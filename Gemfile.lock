@@ -111,3 +111,6 @@ DEPENDENCIES
   sitemap_generator
   wdm (~> 0.1.0)
   zurb-foundation
+
+BUNDLED WITH
+   1.10.3
