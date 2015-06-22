@@ -1126,7 +1126,13 @@ helpers do
                   "168_Continuous_Integration_Screenshot",
                   "/episodes/168_continuous_integration.html",
                   true,
-                  444)
+                  444),
+      Episode.new("169: Fractals, Part 2",
+                  "Combining our L Systems and our Logo Interpreter to explore drunk sierpinski triangles.",
+                  "169_Fractals_Part_2_Screenshot",
+                  "/episodes/169_fractals_part_2.html",
+                  false,
+                  493)
     ]
   end
 
