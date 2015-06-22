@@ -1132,7 +1132,13 @@ helpers do
                   "169_Fractals_Part_2_Screenshot",
                   "/episodes/169_fractals_part_2.html",
                   false,
-                  493)
+                  493),
+      Episode.new("170: Building a Slack Bot",
+                  "Using Elixir to build a bot that can respond to messages in our Slack groups.",
+                  "170_Building_a_Slack_Bot_Screenshot",
+                  "/episodes/170_building_a_slack_bot.html",
+                  false,
+                  406)
     ]
   end
 
