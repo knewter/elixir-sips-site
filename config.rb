@@ -1138,7 +1138,13 @@ helpers do
                   "170_Building_a_Slack_Bot_Screenshot",
                   "/episodes/170_building_a_slack_bot.html",
                   false,
-                  406)
+                  406),
+      Episode.new("171: Erlang 18 and Time",
+                  "Learning how to replace calls to `:erlang.now` with the new API for various use cases.  Plus an introduction to the kerl erlang release manager.",
+                  "171_Erlang_18_and_time_Screenshot",
+                  "/episodes/171_erlang_18_and_time.html",
+                  false,
+                  441)
     ]
   end
 
