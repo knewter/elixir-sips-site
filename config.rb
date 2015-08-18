@@ -1156,7 +1156,13 @@ helpers do
                   "173_Continuous_Deployment_Screenshot",
                   "/episodes/173_continuous_deployment.html",
                   false,
-                  308)
+                  308),
+      Episode.new("174: ElixirFriends - Saving Tweets with Streams and Filters",
+                  "Building a Phoenix Application that stores select tweets for display, applying filters, using Twitter's streaming search.",
+                  "174_ElixirFriends_Saving_Tweets_with_Streams_and_Filters_Screenshot",
+                  "/episodes/174_elixir_friends_saving_tweets_with_streams_and_filters.html",
+                  false,
+                  380)
     ]
   end
 
