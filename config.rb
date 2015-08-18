@@ -1186,7 +1186,13 @@ helpers do
                   "178_Memory_Leaks_Screenshot",
                   "/episodes/178_memory_leaks.html",
                   false,
-                  265)
+                  265),
+      Episode.new("179: Rules Engine",
+                  "Building a Rules Engine and benchmarking a couple of different processing options.",
+                  "179_Rules_Engine_Screenshot",
+                  "/episodes/179_rules_engine.html",
+                  false,
+                  1278)
     ]
   end
 
