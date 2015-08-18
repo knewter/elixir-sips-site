@@ -1174,7 +1174,13 @@ helpers do
                   "176_Prettying_Up_ElixirFriends_Screenshot",
                   "/episodes/176_prettying_up_elixir_friends.html",
                   false,
-                  707)
+                  707),
+      Episode.new("177: Audio Visualizer",
+                  "Using ports and wx to build a visualizer for an audio stream.",
+                  "177_Audio_Visualizer_Screenshot",
+                  "/episodes/177_audio_visualizer.html",
+                  false,
+                  938)
     ]
   end
 
