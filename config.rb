@@ -1180,7 +1180,13 @@ helpers do
                   "177_Audio_Visualizer_Screenshot",
                   "/episodes/177_audio_visualizer.html",
                   false,
-                  938)
+                  938),
+      Episode.new("178: Memory Leaks",
+                  "Using :observer to find memory leaks in your system, because the BEAM's basically on OS.",
+                  "178_Memory_Leaks_Screenshot",
+                  "/episodes/178_memory_leaks.html",
+                  false,
+                  265)
     ]
   end
 
