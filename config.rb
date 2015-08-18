@@ -1150,7 +1150,13 @@ helpers do
                   "172_Arc_File_Uploads_Screenshot",
                   "/episodes/172_arc_file_uploads.html",
                   false,
-                  393)
+                  393),
+      Episode.new("173: Continuous Deployment",
+                  "Using SemaphoreCI to automatically deploy your Phoenix application after the tests run successfully.",
+                  "173_Continuous_Deployment_Screenshot",
+                  "/episodes/173_continuous_deployment.html",
+                  false,
+                  308)
     ]
   end
 
