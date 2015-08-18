@@ -1168,7 +1168,13 @@ helpers do
                   "175_Pagination_with_Ecto_and_Phoenix_Screenshot",
                   "/episodes/175_pagination_with_ecto_and_phoenix.html",
                   false,
-                  634)
+                  634),
+      Episode.new("176: Prettying Up ElixirFriends",
+                  "Adding SemanticUI to ElixirFriends and making it look a little bit better.  Also, we beef up the paginator to know what's active.",
+                  "176_Prettying_Up_ElixirFriends_Screenshot",
+                  "/episodes/176_prettying_up_elixir_friends.html",
+                  false,
+                  707)
     ]
   end
 
