@@ -1162,7 +1162,13 @@ helpers do
                   "174_ElixirFriends_Saving_Tweets_with_Streams_and_Filters_Screenshot",
                   "/episodes/174_elixir_friends_saving_tweets_with_streams_and_filters.html",
                   false,
-                  380)
+                  380),
+      Episode.new("175: Pagination with Ecto and Phoenix",
+                  "Using Scrivener to paginate Ecto queries and display pagination controls on our web pages.",
+                  "175_Pagination_with_Ecto_and_Phoenix_Screenshot",
+                  "/episodes/175_pagination_with_ecto_and_phoenix.html",
+                  false,
+                  634)
     ]
   end
 
