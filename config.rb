@@ -1144,7 +1144,13 @@ helpers do
                   "171_Erlang_18_and_time_Screenshot",
                   "/episodes/171_erlang_18_and_time.html",
                   false,
-                  441)
+                  441),
+      Episode.new("172: Arc File Uploads",
+                  "Using the `arc` library to enable simple file uploads and image manipulation and versioning in your Phoenix applications.",
+                  "172_Arc_File_Uploads_Screenshot",
+                  "/episodes/172_arc_file_uploads.html",
+                  false,
+                  393)
     ]
   end
 
