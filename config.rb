@@ -1192,7 +1192,13 @@ helpers do
                   "179_Rules_Engine_Screenshot",
                   "/episodes/179_rules_engine.html",
                   false,
-                  1278)
+                  1278),
+      Episode.new("180: Collectable",
+                  "Implementing the Collectable protocol to clean up a common pattern in our code.",
+                  "180_Collectable_Screenshot",
+                  "/episodes/180_collectable.html",
+                  false,
+                  355)
     ]
   end
 
