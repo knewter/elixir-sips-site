@@ -1228,7 +1228,13 @@ helpers do
                   "185_Mix_Archives_Screenshot",
                   "/episodes/185_mix_archives.html",
                   false,
-                  118)
+                  118),
+      Episode.new("186: Automatically Connecting Nodes",
+                  "Using Erlang's sys.config file to tell our application to wire a couple of nodes together automatically, and seeing that Phoenix Channels support distribution out of the box.",
+                  "186_Automatically_Connecting_Nodes_Screenshot",
+                  "/episodes/186_automatically_connecting_nodes.html",
+                  false,
+                  214)
     ]
   end
 
