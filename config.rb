@@ -1216,7 +1216,13 @@ helpers do
                   "183_React_with_Phoenix_Screenshot",
                   "/episodes/183_react_with_phoenix.html",
                   false,
-                  472)
+                  472),
+      Episode.new("184: React with Phoenix Channels",
+                  "Pushing new posts to ElixirFriends into our React application's state using Phoenix Channels.",
+                  "184_React_Phoenix_Channels_Screenshot",
+                  "/episodes/184_react_with_phoenix_channels.html",
+                  false,
+                  404)
     ]
   end
 
