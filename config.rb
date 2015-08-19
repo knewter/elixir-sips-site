@@ -1210,7 +1210,13 @@ helpers do
                   "182_Phoenix_API_Screenshot",
                   "/episodes/182_phoenix_api.html",
                   false,
-                  350)
+                  350),
+      Episode.new("183: React with Phoenix",
+                  "Building a React application that interfaces with our Phoenix API for ElixirFriends.",
+                  "183_React_with_Phoenix_Screenshot",
+                  "/episodes/183_react_with_phoenix.html",
+                  false,
+                  472)
     ]
   end
 
