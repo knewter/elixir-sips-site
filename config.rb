@@ -1222,7 +1222,13 @@ helpers do
                   "184_React_Phoenix_Channels_Screenshot",
                   "/episodes/184_react_with_phoenix_channels.html",
                   false,
-                  404)
+                  404),
+      Episode.new("185: Mix Archives",
+                  "Using Mix to build an Erlang Archive Format file and install it as a local archive.",
+                  "185_Mix_Archives_Screenshot",
+                  "/episodes/185_mix_archives.html",
+                  false,
+                  118)
     ]
   end
 
