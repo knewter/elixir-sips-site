@@ -1204,7 +1204,13 @@ helpers do
                   "181_Native_Compilation_with_HiPE_Screenshot",
                   "/episodes/181_native_compilation_with_hipe.html",
                   false,
-                  474)
+                  474),
+      Episode.new("182: Phoenix API",
+                  "Building out an API endpoint for ElixirFriends in Phoenix",
+                  "182_Phoenix_API_Screenshot",
+                  "/episodes/182_phoenix_api.html",
+                  false,
+                  350)
     ]
   end
 
