@@ -1198,7 +1198,13 @@ helpers do
                   "180_Collectable_Screenshot",
                   "/episodes/180_collectable.html",
                   false,
-                  355)
+                  355),
+      Episode.new("181: Native Compilation with HiPE",
+                  "Taking further advantage of the power given to us by the almighty BEAM to get faster code for free. Hype hype hype!",
+                  "181_Native_Compilation_with_HiPE_Screenshot",
+                  "/episodes/181_native_compilation_with_hipe.html",
+                  false,
+                  474)
     ]
   end
 
