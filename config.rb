@@ -1234,7 +1234,13 @@ helpers do
                   "186_Automatically_Connecting_Nodes_Screenshot",
                   "/episodes/186_automatically_connecting_nodes.html",
                   false,
-                  214)
+                  214),
+      Episode.new("187: Compiling a Custom AST Into Elixir Functions",
+                  "Taking advantage of Elixir's amazing metaprogramming support to build our own AST and compile it into running functions.",
+                  "187_Compiling_a_Custom_AST_Into_Elixir_Functions_Screenshot",
+                  "/episodes/187_compiling_a_custom_ast_into_elixir_functions.html",
+                  false,
+                  534)
     ]
   end
 
