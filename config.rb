@@ -1240,7 +1240,13 @@ helpers do
                   "187_Compiling_a_Custom_AST_Into_Elixir_Functions_Screenshot",
                   "/episodes/187_compiling_a_custom_ast_into_elixir_functions.html",
                   false,
-                  534)
+                  534),
+      Episode.new("188: ElixirScript",
+                  "Because writing Elixir is far preferable to writing JavaScript.",
+                  "188_ElixirScript_Screenshot",
+                  "/episodes/188_elixirscript.html",
+                  false,
+                  333)
     ]
   end
 
