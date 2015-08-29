@@ -1246,7 +1246,13 @@ helpers do
                   "188_ElixirScript_Screenshot",
                   "/episodes/188_elixirscript.html",
                   false,
-                  333)
+                  333),
+      Episode.new("189: .iex.exs",
+                  "Customizing your IEx prompt for productivity and aesthetic purposes.",
+                  "189_.iex.exs_Screenshot",
+                  "/episodes/189_.iex.exs.html",
+                  false,
+                  182)
     ]
   end
 
