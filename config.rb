@@ -1258,7 +1258,13 @@ helpers do
                   "190_Testing_Phoenix_Channels_Screenshot",
                   "/episodes/190_testing_phoenix_channels.html",
                   false,
-                  228)
+                  228),
+      Episode.new("191: Interesting I/O",
+                  "Building an ANSI Tetris renderer for the TTY using iolists.",
+                  "191_Interesting_IO_Screenshot",
+                  "/episodes/191_interesting_io.html",
+                  false,
+                  727)
     ]
   end
 
