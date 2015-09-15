@@ -1252,7 +1252,13 @@ helpers do
                   "189_.iex.exs_Screenshot",
                   "/episodes/189_.iex.exs.html",
                   false,
-                  182)
+                  182),
+      Episode.new("190: Testing Phoenix Channels",
+                  "Looking at the facilities Phoenix provides to assist in writing tests for your channels.",
+                  "190_Testing_Phoenix_Channels_Screenshot",
+                  "/episodes/190_testing_phoenix_channels.html",
+                  false,
+                  228)
     ]
   end
 
