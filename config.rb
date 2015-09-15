@@ -1264,7 +1264,13 @@ helpers do
                   "191_Interesting_IO_Screenshot",
                   "/episodes/191_interesting_io.html",
                   false,
-                  727)
+                  727),
+      Episode.new("192: Interesting I/O, Part 2 - Input with `tty_sl`",
+                  "Using the underlying port driver that the Erlang 'REPL' uses to handle terminal-based input one character at a time.",
+                  "192_Interesting_IO_Part_2_Input_with_tty_sl_Screenshot",
+                  "/episodes/192_interesting_io_part_2_input_with_tty_sl.html",
+                  false,
+                  617)
     ]
   end
 
