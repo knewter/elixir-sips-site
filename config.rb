@@ -1276,7 +1276,13 @@ helpers do
                   "193_Linting_with_Dogma_Screenshot",
                   "/episodes/193_linting_with_dogma.html",
                   false,
-                  450)
+                  450),
+      Episode.new("194: Interoperability - Ports",
+                  "Writing a C program that has an Elixir interface by way of Erlang's Ports system.",
+                  "194_Interoperability_Ports_Screenshot",
+                  "/episodes/194_interoperability_ports.html",
+                  false,
+                  753)
     ]
   end
 
