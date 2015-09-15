@@ -1270,7 +1270,13 @@ helpers do
                   "192_Interesting_IO_Part_2_Input_with_tty_sl_Screenshot",
                   "/episodes/192_interesting_io_part_2_input_with_tty_sl.html",
                   false,
-                  617)
+                  617),
+      Episode.new("193: Linting with Dogma",
+                  "Examining an up and coming coding style enforcement tool.",
+                  "193_Linting_with_Dogma_Screenshot",
+                  "/episodes/193_linting_with_dogma.html",
+                  false,
+                  450)
     ]
   end
 
