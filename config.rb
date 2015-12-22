@@ -1343,7 +1343,13 @@ web application.",
                   "204_Behaviours_Screenshot",
                   "/episodes/204_behaviours.html",
                   false,
-                  490)
+                  490),
+      Episode.new("205: The Opposite of Mocks",
+                  "A strategy that I employed to get around a module that was particularly opposed to being tested, due to a dependency on being started with a client socket as its argument.",
+                  "205_The_Opposite_of_Mocks_Screenshot",
+                  "/episodes/205_the_opposite_of_mocks.html",
+                  false,
+                  564)
     ]
   end
 
