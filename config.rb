@@ -1288,7 +1288,13 @@ helpers do
                   "195_Spaceships_Screenshot",
                   "/episodes/195_spaceships.html",
                   false,
-                  268)
+                  268),
+      Episode.new("196: Crashing the BEAM",
+                  "Causing a few of the BEAM's failure modes so we can see them in a controlled environment...and because breaking things is fun.",
+                  "196_Crashing_the_BEAM_Screenshot",
+                  "/episodes/196_crashing_the_beam.html",
+                  false,
+                  333)
     ]
   end
 
