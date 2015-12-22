@@ -1324,7 +1324,13 @@ helpers do
                   "201_Tracing_and_Debugging_with_erlyberly_Screenshot",
                   "/episodes/201_tracing_and_debugging_with_erlyberly.html",
                   false,
-                  213)
+                  213),
+      Episode.new("202: Exception Monitoring with Honeybadger.io",
+                  "Monitoring exceptions in your production applications, whether they're OTP applications, Phoenix applications, or something ad-hoc.",
+                  "202_Exception_Monitoring_with_Honeybadger.io_Screenshot",
+                  "/episodes/202_exception_monitoring_with_honeybadgerio.html",
+                  false,
+                  435)
     ]
   end
 
