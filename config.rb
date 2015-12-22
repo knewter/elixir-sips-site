@@ -1300,7 +1300,13 @@ helpers do
                   "197_gproc_Screenshot",
                   "/episodes/197_gproc.html",
                   false,
-                  609)
+                  609),
+      Episode.new("198: Elixir and Unity3D",
+                  "Rendering our spaceships simulator in 3D with Unity3D",
+                  "198_Elixir_and_Unity3D_Screenshot",
+                  "/episodes/198_elixir_and_unity3d.html",
+                  false,
+                  184)
     ]
   end
 
