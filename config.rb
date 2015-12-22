@@ -1312,7 +1312,13 @@ helpers do
                   "199_Modeling_a_Virtual_Machine_Screenshot",
                   "/episodes/199_modeling_a_virtual_machine.html",
                   false,
-                  1396)
+                  1396),
+      Episode.new("200: Custom Types in Ecto",
+                  "Storing custom types in Ecto models...Specifically, storing a particularly-shaped 2-tuple, and barfing on anything else.",
+                  "200_Custom_Types_in_Ecto_Screenshot",
+                  "/episodes/200_custom_types_in_ecto.html",
+                  false,
+                  471)
     ]
   end
 
