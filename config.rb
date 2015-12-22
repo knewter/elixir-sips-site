@@ -1337,7 +1337,13 @@ web application.",
                   "203_plug_auth_Screenshot",
                   "/episodes/203_plug_auth.html",
                   false,
-                  266)
+                  266),
+      Episode.new("204: Behaviours",
+                  "Enforcing your own custom interfaces with Behaviours in Elixir.",
+                  "204_Behaviours_Screenshot",
+                  "/episodes/204_behaviours.html",
+                  false,
+                  490)
     ]
   end
 
