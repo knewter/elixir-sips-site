@@ -1361,7 +1361,13 @@ web application.",
                   "207_XMLRPC_Screenshot",
                   "/episodes/207_xmlrpc.html",
                   false,
-                  316)
+                  316),
+      Episode.new("208: Compile Time Interface Policy Enforcement",
+                  "Making our compiler enforce business-level decisions about how functions in a particular module should be written, using @on_definition.",
+                  "208_Compile_Time_Interface_Policy_Enforcement_Screenshot",
+                  "/episodes/208_compile_time_interface_policy_enforcement.html",
+                  false,
+                  583)
     ]
   end
 
