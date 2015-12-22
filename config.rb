@@ -1282,7 +1282,13 @@ helpers do
                   "194_Interoperability_Ports_Screenshot",
                   "/episodes/194_interoperability_ports.html",
                   false,
-                  753)
+                  753),
+      Episode.new("195: Spaceships",
+                  "A rapid jaunt through a little spaceship simulator I wrote that has a wx renderer.",
+                  "195_Spaceships_Screenshot",
+                  "/episodes/195_spaceships.html",
+                  false,
+                  268)
     ]
   end
 
