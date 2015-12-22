@@ -1306,7 +1306,13 @@ helpers do
                   "198_Elixir_and_Unity3D_Screenshot",
                   "/episodes/198_elixir_and_unity3d.html",
                   false,
-                  184)
+                  184),
+      Episode.new("199: Modeling a Virtual Machine",
+                  "Building a register-based virtual machine with 4 registers and 2 instructions...And a bytecode format...And an assembly language.",
+                  "199_Modeling_a_Virtual_Machine_Screenshot",
+                  "/episodes/199_modeling_a_virtual_machine.html",
+                  false,
+                  1396)
     ]
   end
 
