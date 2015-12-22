@@ -1330,7 +1330,14 @@ helpers do
                   "202_Exception_Monitoring_with_Honeybadger.io_Screenshot",
                   "/episodes/202_exception_monitoring_with_honeybadgerio.html",
                   false,
-                  435)
+                  435),
+      Episode.new("203: plug_auth",
+                  "An unbelievably simple plug for adding authentication and role-based authorization to your Plug-based
+web application.",
+                  "203_plug_auth_Screenshot",
+                  "/episodes/203_plug_auth.html",
+                  false,
+                  266)
     ]
   end
 
