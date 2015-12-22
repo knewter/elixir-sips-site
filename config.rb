@@ -1355,7 +1355,13 @@ web application.",
                   "206_Getting_a_Nested_Module_From_a_String_Screenshot",
                   "/episodes/206_getting_a_nested_module_from_a_string.html",
                   false,
-                  271)
+                  271),
+      Episode.new("207: XMLRPC",
+                  "Integrating with systems that use XMLRPC as their remote execution interface.",
+                  "207_XMLRPC_Screenshot",
+                  "/episodes/207_xmlrpc.html",
+                  false,
+                  316)
     ]
   end
 
