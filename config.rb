@@ -1349,7 +1349,13 @@ web application.",
                   "205_The_Opposite_of_Mocks_Screenshot",
                   "/episodes/205_the_opposite_of_mocks.html",
                   false,
-                  564)
+                  564),
+      Episode.new("206: Getting a Nested Module From a String",
+                  "A few unsafe ways to turn user input into a module, a wrongheaded safe way to do it, and then the correct way to do it.",
+                  "206_Getting_a_Nested_Module_From_a_String_Screenshot",
+                  "/episodes/206_getting_a_nested_module_from_a_string.html",
+                  false,
+                  271)
     ]
   end
 
