@@ -1294,7 +1294,13 @@ helpers do
                   "196_Crashing_the_BEAM_Screenshot",
                   "/episodes/196_crashing_the_beam.html",
                   false,
-                  333)
+                  333),
+      Episode.new("197: gproc",
+                  "Using Ulf Wiger's `gproc` application to register processes and look them up in interesting ways.",
+                  "197_gproc_Screenshot",
+                  "/episodes/197_gproc.html",
+                  false,
+                  609)
     ]
   end
 
