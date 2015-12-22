@@ -1367,7 +1367,13 @@ web application.",
                   "208_Compile_Time_Interface_Policy_Enforcement_Screenshot",
                   "/episodes/208_compile_time_interface_policy_enforcement.html",
                   false,
-                  583)
+                  583),
+      Episode.new("209: Integration Tests with Hound",
+                  "Using Hound to drive a browser and test JavaScript behaviour of your Phoenix application.",
+                  "209_Integration_Tests_with_Hound_Screenshot",
+                  "/episodes/209_integration_tests_with_hound.html",
+                  false,
+                  309)
     ]
   end
 
