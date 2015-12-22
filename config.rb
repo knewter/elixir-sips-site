@@ -1318,7 +1318,13 @@ helpers do
                   "200_Custom_Types_in_Ecto_Screenshot",
                   "/episodes/200_custom_types_in_ecto.html",
                   false,
-                  471)
+                  471),
+      Episode.new("201: Tracing and Debugging with erlyberly",
+                  "Tracing function calls in a running Erlang node, which should be massively helpful for debugging.",
+                  "201_Tracing_and_Debugging_with_erlyberly_Screenshot",
+                  "/episodes/201_tracing_and_debugging_with_erlyberly.html",
+                  false,
+                  213)
     ]
   end
 
