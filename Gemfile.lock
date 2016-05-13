@@ -17,7 +17,7 @@ GEM
     em-websocket (0.5.0)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.5.3)
-    eventmachine (1.0.3)
+    eventmachine (1.0.9.1)
     execjs (1.4.0)
       multi_json (~> 1.0)
     ffi (1.9.0)
@@ -104,6 +104,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  eventmachine (~> 1.0.9)
   middleman (~> 3.1.4)
   middleman-gh-pages
   middleman-livereload (~> 3.1.0)
@@ -113,4 +114,4 @@ DEPENDENCIES
   zurb-foundation
 
 BUNDLED WITH
-   1.10.3
+   1.12.3
