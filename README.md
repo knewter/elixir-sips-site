@@ -28,3 +28,15 @@ While developing the site:
 ```
 middleman server
 ```
+
+## Building static files from DailyDrip data
+
+If you have a dump of DailyDrip data, you can build the static html files with:
+
+```ruby
+require './elixir_sips_utilities'
+ElixirSips::Utilities.sorted_episodes_csv.each do |episode_csv|
+  ElixirSips::Utilities.generate_html_file(episode_csv)
+  ElixirSips::Utilities.generate_images(episode_csv)
+end
+```

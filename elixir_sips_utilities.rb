@@ -1,10 +1,15 @@
 require_relative './elixir_sips'
 require 'csv'
+require 'fastimage_resize'
 
 module ElixirSips
   module Utilities
     # Download a given url, turn it into our sizes, and place it in the local directory
-    def self.generate_images(screenshot_url, screenshot_prefix)
+    def self.generate_images(episode_csv)
+      screenshot_url = episode_csv["Screenshot"]
+      screenshot_prefix = CSVHelpers.screenshot_prefix(episode_csv)
+      FastImage.resize(screenshot_url, 600, 338, outfile: "./source/images/#{screenshot_prefix}_600x338.png")
+      FastImage.resize(screenshot_url, 300, 169, outfile: "./source/images/#{screenshot_prefix}_300x169.png")
     end
 
     def self.generate_html_file(episode_csv)
@@ -36,6 +41,7 @@ eos
 
     def self.episodes_csv
       CSV.read(filename, headers: true)
+        .select{|e| e["Identifier"].to_i >= 209}
     end
 
     def self.sorted_episodes_csv
