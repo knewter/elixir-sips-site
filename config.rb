@@ -118,6 +118,10 @@ helpers do
   end
 
   def episodes
+    episodes_til_209 + episodes_since_209
+  end
+
+  def episodes_til_209
     [
       Episode.new("001: Introduction and Installing Elixir",
                   "A quick introduction to the screencast, followed by an Erlang / Elixir installation walkthrough.",
@@ -1375,6 +1379,35 @@ web application.",
                   false,
                   309)
     ]
+  end
+
+  def episodes_since_209
+    filename = "episodes_since_209.csv"
+    episodes_csv = CSV.parse(filename, headers: true)
+    mapped_episodes =
+      episodes_csv.map do |episode|
+        Episode.new(episode["Title"],
+                    episode["Teaser"],
+                    CSVHelpers.screenshot_prefix(episode),
+                    CSVHelpers.html_file_name(episode),
+                    CSVHelpers.free_episode?(episode),
+                    episode["Video length"].to_i)
+      end
+    mapped_episodes.sort_by{|e| e.identifier}
+  end
+
+  module CSVHelpers
+    def screenshot_prefix(episode)
+      episode["Screenshot"].split("/")[-1].split(".")[0]
+    end
+
+    def html_file_name(episode)
+      screenshot_prefix(episode).downcase
+    end
+
+    def free_episode?(episode)
+      episode["Free"] == "true"
+    end
   end
 
   def specials
