@@ -17,7 +17,7 @@ title: Elixir Sips | Learn Elixir With a Pro
 
 .intro_episodes
   .latest_episode{itemprop: "video", itemscope: true, itemtype: "http://schema.org/VideoObject"}
-    %meta{itemprop: "thumbnail", content: url("images/#{latest_episode.cover_image_url}")}
+    %meta{itemprop: "thumbnailUrl", content: url("images/#{latest_episode.cover_image_url}")}
     %meta{itemprop: "description", content: latest_episode.synopsis}
     %meta{itemprop: "duration", content: schema_duration(latest_episode.length)}
     %meta{itemprop: "name", content: latest_episode.title}

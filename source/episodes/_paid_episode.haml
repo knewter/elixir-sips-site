@@ -1,6 +1,5 @@
 .episode{itemprop: "video", itemscope: true, itemtype: "http://schema.org/VideoObject"}
-  %meta{itemprop: "thumbnail", content: url("images/#{episode.cover_image_url}")}
-  %meta{itemprop: "name", content: episode.title}
+  %meta{itemprop: "thumbnailUrl", content: url("images/#{episode.cover_image_url}")}
   %h3
     %span{itemprop: "name"}= episode.title_with_subscriber_tag
   %p.byline by #{link_to "Josh Adams", "https://plus.google.com/+JoshAdams"}
