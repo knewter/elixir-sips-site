@@ -19,9 +19,9 @@ module ElixirSips
       File.open("./source#{CSVHelpers.html_file_name(episode_csv)}.haml", "w") do |f|
         f.write <<-eos
 ---
-title: "Episode #{episode.title} | Elixir Sips"
+title: "Episode #{episode.title.gsub("\"", '\\"')} | Elixir Sips"
 ---
-- episode = episode_by_title("#{CSVHelpers.title(episode_csv)}")
+- episode = episode_by_title(%q[#{CSVHelpers.title(episode_csv)}])
 
 = partial 'episodes/paid_episode', locals: { episode: episode }
 eos
